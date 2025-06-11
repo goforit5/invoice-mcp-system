@@ -1,0 +1,166 @@
+{
+  "invoice_metadata": {
+    "invoice_number": null,
+    "invoice_type": null,
+    "source_file_name": "Bill_20241007_0003.pdf",
+    "issue_date": "02/01/2025",
+    "due_date": "02/21/2025",
+    "period_start_date": null,
+    "period_end_date": null,
+    "balance_due": 45.0,
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": "Coastal Kids Pediatric Med GRP",
+    "address": "24422 Avenida De La Carlota Ste 300",
+    "city": "Laguna Hills",
+    "state": "CA",
+    "zip": "92653-3628",
+    "phone": "949-599-2434",
+    "email": null,
+    "website": null,
+    "contact_name": null,
+    "remittance_address": "24422 Avenida De La Carlota Ste 300, Laguna Hills CA 92653-3628"
+  },
+  "customer": {
+    "name": "Bennett Lark",
+    "address": "41 Bainbridge Ave",
+    "city": "Ladera Ranch",
+    "state": "CA",
+    "zip": "92694-0945",
+    "account_number": "107138",
+    "facility_id": null,
+    "contact_name": null
+  },
+  "line_items": [
+    {
+      "date": "10/07/2024",
+      "description": "Office visit, focused",
+      "quantity": null,
+      "unit": null,
+      "rate": 159.0,
+      "amount": 159.0,
+      "notes": null
+    },
+    {
+      "date": "10/07/2024",
+      "description": "TB skin test",
+      "quantity": null,
+      "unit": null,
+      "rate": 34.0,
+      "amount": 34.0,
+      "notes": null
+    }
+  ],
+  "totals": {
+    "subtotal": 193.0,
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": 45.0
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": null,
+      "account_number": null,
+      "account_name": null
+    },
+    "wire": {
+      "routing_number": null,
+      "swift_code": null,
+      "account_number": null,
+      "account_name": null,
+      "bank_address": null
+    },
+    "credit_card": {
+      "instructions": "You may pay your bill in full with a credit card, debit card or check. Pay Online At: https://pay.balancecollect.com/m/coastalkids"
+    },
+    "postal": {
+      "regular": null,
+      "courier": null
+    }
+  },
+  "terms_and_conditions": "To avoid further collection action please remit payment. Thank you for your prompt attention to your outstanding balance. We are happy to answer any questions you may have.",
+  "dispute_instructions": null,
+  "miscellaneous_fields": {},
+  "audit": {
+    "section_presence": {
+      "status": "complete",
+      "missing_sections": []
+    },
+    "vendor_customer_completeness": {
+      "status": "partial",
+      "missing_fields": [
+        "vendor.email",
+        "vendor.website",
+        "vendor.contact_name",
+        "customer.contact_name",
+        "customer.facility_id"
+      ]
+    },
+    "line_math": [
+      {
+        "row_index": 0,
+        "expected_amount": 159.0,
+        "reported_amount": 159.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 1,
+        "expected_amount": 34.0,
+        "reported_amount": 34.0,
+        "difference": 0.0,
+        "status": "correct"
+      }
+    ],
+    "line_sum_to_subtotal": {
+      "line_sum": 193.0,
+      "subtotal": 193.0,
+      "difference": 0.0,
+      "status": "correct"
+    },
+    "subtotal_formula": {
+      "computed_total": 193.0,
+      "reported_total": 45.0,
+      "difference": 148.0,
+      "status": "mismatch"
+    },
+    "total_to_balance_due": {
+      "total": 45.0,
+      "balance_due": 45.0,
+      "difference": 0.0,
+      "status": "correct"
+    },
+    "zero_negative_guard": {
+      "status": "passed",
+      "problem_rows": []
+    },
+    "duplicate_line_item": {
+      "status": "none found",
+      "duplicates_found": []
+    },
+    "missing_descriptions": {
+      "status": "none",
+      "rows_missing": []
+    },
+    "date_sanity": {
+      "status": "passed",
+      "issues_found": []
+    },
+    "currency_coherence": {
+      "status": "passed",
+      "mixed_currencies_detected": []
+    },
+    "ocr_confidence_floor": {
+      "average_confidence": null,
+      "status": null
+    },
+    "blank_page_detector": {
+      "status": "passed",
+      "blank_pages": []
+    },
+    "overall_status": "requires_human_review",
+    "requires_human_review": true
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "invoice_metadata": {
+    "invoice_number": null,
+    "invoice_type": null,
+    "source_file_name": null,
+    "issue_date": null,
+    "due_date": null,
+    "period_start_date": null,
+    "period_end_date": null,
+    "balance_due": null,
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "phone": null,
+    "email": null,
+    "website": null,
+    "contact_name": null,
+    "remittance_address": null
+  },
+  "customer": {
+    "name": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "account_number": null,
+    "facility_id": null,
+    "contact_name": null
+  },
+  "line_items": [
+    {
+      "date": null,
+      "description": null,
+      "quantity": null,
+      "unit": null,
+      "rate": null,
+      "amount": null,
+      "notes": null
+    }
+  ],
+  "totals": {
+    "subtotal": null,
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": null
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": null,
+      "account_number": null,
+      "account_name": null
+    },
+    "wire": {
+      "routing_number": null,
+      "swift_code": null,
+      "account_number": null,
+      "account_name": null,
+      "bank_address": null
+    },
+    "credit_card": {
+      "instructions": null
+    },
+    "postal": {
+      "regular": null,
+      "courier": null
+    }
+  },
+  "terms_and_conditions": null,
+  "dispute_instructions": null,
+  "miscellaneous_fields": {},
+  "audit": {
+    "section_presence": {
+      "status": null,
+      "missing_sections": []
+    },
+    "vendor_customer_completeness": {
+      "status": null,
+      "missing_fields": []
+    },
+    "line_math": [
+      {
+        "row_index": null,
+        "expected_amount": null,
+        "reported_amount": null,
+        "difference": null,
+        "status": null
+      }
+    ],
+    "line_sum_to_subtotal": {
+      "line_sum": null,
+      "subtotal": null,
+      "difference": null,
+      "status": null
+    },
+    "subtotal_formula": {
+      "computed_total": null,
+      "reported_total": null,
+      "difference": null,
+      "status": null
+    },
+    "total_to_balance_due": {
+      "total": null,
+      "balance_due": null,
+      "difference": null,
+      "status": null
+    },
+    "zero_negative_guard": {
+      "status": null,
+      "problem_rows": []
+    },
+    "duplicate_line_item": {
+      "status": null,
+      "duplicates_found": []
+    },
+    "missing_descriptions": {
+      "status": null,
+      "rows_missing": []
+    },
+    "date_sanity": {
+      "status": null,
+      "issues_found": []
+    },
+    "currency_coherence": {
+      "status": null,
+      "mixed_currencies_detected": []
+    },
+    "ocr_confidence_floor": {
+      "average_confidence": null,
+      "status": null
+    },
+    "blank_page_detector": {
+      "status": null,
+      "blank_pages": []
+    },
+    "overall_status": null,
+    "requires_human_review": null
+  }
+}

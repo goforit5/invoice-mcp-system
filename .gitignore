@@ -1,0 +1,108 @@
+# Claude Code Settings
+**/.claude/settings.local.json
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+vision-mcp-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+frontend.log
+frontend.pid
+api-invoice.log
+frontend-invoice.log
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+src/crm-db/crm.db
+
+# API Keys & Credentials
+src/quickbooks/qb_auth.json
+.env*
+config/local.json
+secrets.json
+
+# Build Outputs
+build/
+dist/
+.next/
+.nuxt/
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# Test Coverage
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Misc
+*.tgz
+*.tar.gz

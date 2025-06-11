@@ -1,0 +1,87 @@
+name: "DMV Document Processing"
+description: "Automated processing of DMV notices and documents with AI analysis and CRM integration"
+version: "1.0"
+
+triggers:
+  - event: "communication.created"
+    conditions:
+      - "sender_identifier LIKE '%dmv%'"
+      - "content LIKE '%suspend%' OR content LIKE '%notice%' OR content LIKE '%registration%'"
+  
+  - event: "document.extracted"
+    conditions:
+      - "document_type LIKE '%dmv%' OR content LIKE '%motor vehicles%'"
+
+steps:
+  - name: "ai_summary"
+    description: "Generate AI summary of the communication"
+    tool: "ai_summarize"
+    params:
+      content: "${trigger_data.message_content_text}"
+      max_length: 200
+      model: "claude-3-haiku"
+    
+  - name: "extract_entities"
+    description: "Extract key entities from the document"
+    tool: "ai_extract_entities"
+    params:
+      content: "${trigger_data.message_content_text}"
+      types: ["dates", "amounts", "vehicles", "deadlines"]
+    
+  - name: "classify_urgency"
+    description: "Determine urgency level based on content"
+    tool: "ai_classify_urgency"
+    params:
+      content: "${trigger_data.message_content_text}"
+      keywords: ["suspend", "deadline", "notice", "fine", "penalty", "revoke"]
+    
+  - name: "link_company"
+    description: "Link communication to DMV company record"
+    tool: "crm_update_communication"
+    params:
+      communication_id: "${trigger_data.id}"
+      updates:
+        sender_company_id: 5  # DMV company ID
+        ai_generated_summary: "${execution_results.ai_summary.summary}"
+        ai_extracted_entities: "${execution_results.extract_entities.entities}"
+        urgency_level: "${execution_results.classify_urgency.urgency_level}"
+    
+  - name: "create_follow_up_task"
+    description: "Create urgent follow-up task if deadline detected"
+    tool: "crm_create_task"
+    conditions:
+      - "urgency_level IN ('high', 'urgent')"
+    params:
+      title: "DMV Action Required - ${trigger_data.subject_line}"
+      description: "Follow up on DMV communication. ${execution_results.ai_summary.summary}"
+      company_id: 5
+      due_date: "${execution_results.extract_entities.entities.deadlines[0]}"
+      priority: "${execution_results.classify_urgency.urgency_level}"
+    
+  - name: "update_communication_flags"
+    description: "Update communication with follow-up requirements"
+    tool: "crm_update_communication"
+    conditions:
+      - "urgency_level IN ('high', 'urgent')"
+    params:
+      communication_id: "${trigger_data.id}"
+      updates:
+        requires_follow_up: 1
+        follow_up_due_date: "${execution_results.extract_entities.entities.deadlines[0]}"
+        content_category: "government_notice"
+    
+  - name: "log_workflow_completion"
+    description: "Log successful workflow completion"
+    tool: "workflow_log"
+    params:
+      workflow_name: "DMV Document Processing"
+      communication_id: 4
+      summary_generated: true
+
+metadata:
+  author: "Andrew Lark"
+  created_date: "2025-06-09"
+  category: "document_processing"
+  tags: ["dmv", "government", "legal_notices", "vehicle_registration"]
+  estimated_runtime: "30 seconds"
+  dependencies: ["crm-db", "vision", "ai_processing"]

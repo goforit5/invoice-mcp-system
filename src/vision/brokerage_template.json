@@ -1,0 +1,109 @@
+{
+  "statement_metadata": {
+    "statement_provider": null,
+    "statement_date": null,
+    "statement_period_start": null,
+    "statement_period_end": null,
+    "statement_type": null,
+    "source_file_name": null
+  },
+  "customer": {
+    "name": null,
+    "address": null,
+    "account_number": null,
+    "client_id": null,
+    "advisor_name": null
+  },
+  "accounts": [
+    {
+      "account_name": null,
+      "account_number": null,
+      "account_type": null,
+      "holdings": [
+        {
+          "description": null,
+          "cusip": null,
+          "ticker": null,
+          "asset_type": null,
+          "quantity": null,
+          "price": null,
+          "market_value": null
+        }
+      ],
+      "account_total_value": null
+    }
+  ],
+  "statement_total_value": null,
+
+  "audit": {
+    "section_presence": {
+      "status": null,
+      "missing_sections": []
+    },
+    "account_header_parsing": {
+      "status": null,
+      "accounts_missing_fields": []
+    },
+    "holdings_to_account": [
+      {
+        "account_number": null,
+        "holdings_sum": null,
+        "account_total_value": null,
+        "difference": null,
+        "status": null
+      }
+    ],
+    "accounts_to_statement": {
+      "total_of_account_values": null,
+      "statement_total_value": null,
+      "difference": null,
+      "status": null
+    },
+    "quantity_value_logic": [
+      {
+        "account_number": null,
+        "cusip_or_ticker": null,
+        "computed_value": null,
+        "reported_market_value": null,
+        "difference_pct": null,
+        "status": null
+      }
+    ],
+    "zero_negative_guard": {
+      "status": null,
+      "problem_rows": []
+    },
+    "rounding_coherence": {
+      "status": null,
+      "accounts_with_issues": []
+    },
+    "duplicate_security_id": {
+      "status": null,
+      "duplicates_found": []
+    },
+    "missing_identifier": {
+      "status": null,
+      "holdings_without_id": []
+    },
+    "missing_value_fields": {
+      "status": null,
+      "rows_missing_values": []
+    },
+    "currency_symbol_coherence": {
+      "status": null,
+      "mixed_currencies_detected": []
+    },
+    "date_range_sanity": {
+      "status": null,
+      "future_dates_found": []
+    },
+    "header_footer_total_match": {
+      "footer_total_value": null,
+      "statement_total_value": null,
+      "difference": null,
+      "status": null
+    },
+    "overall_status": null,
+    "requires_human_review": null
+  }
+}

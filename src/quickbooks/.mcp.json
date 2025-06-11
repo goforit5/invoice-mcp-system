@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "quickbooks-server": {
+      "type": "stdio",
+      "command": "/Users/andrew/Projects/claudecode1/vision-mcp-env/bin/python3",
+      "args": [
+        "/Users/andrew/Projects/claudecode1/src/quickbooks/server.py"
+      ],
+      "env": {
+        "QB_ENV": "sandbox"
+      }
+    }
+  }
+}

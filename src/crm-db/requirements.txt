@@ -1,0 +1,8 @@
+# CRM Database MCP Server Dependencies
+mcp[cli]>=1.0.0
+sqlite3
+fastapi>=0.104.0
+pydantic>=2.5.0
+python-dateutil>=2.8.2
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0

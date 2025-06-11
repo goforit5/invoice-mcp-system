@@ -1,0 +1,478 @@
+{
+  "statement_metadata": {
+    "statement_provider": "Fidelity",
+    "statement_date": "2015-07-31",
+    "statement_period_start": "2015-07-01",
+    "statement_period_end": "2015-07-31",
+    "statement_type": "INVESTMENT REPORT",
+    "source_file_name": "fidelity_2015_sample_2025-06-02T01-58-17.pdf"
+  },
+  "customer": {
+    "name": "John W. Doe",
+    "address": "100 Main St. Boston, MA 02201",
+    "account_number": null,
+    "client_id": null,
+    "advisor_name": null
+  },
+  "accounts": [
+    {
+      "account_name": "John W. Doe - Individual TOD",
+      "account_number": "111-111111",
+      "account_type": "GENERAL INVESTMENTS",
+      "holdings": [
+        {
+          "description": "FDIC INSURED DEPOSIT AT FIFTH THIRD BANK",
+          "cusip": null,
+          "ticker": null,
+          "asset_type": "Core Account",
+          "quantity": 3500.5,
+          "price": 1,
+          "market_value": 3500.5
+        },
+        {
+          "description": "DOUBLELINE TOTAL RETURN BOND FD CL I",
+          "cusip": null,
+          "ticker": "DBLTX",
+          "asset_type": "Mutual Funds",
+          "quantity": 1015.328,
+          "price": 11.19,
+          "market_value": 11361.52
+        },
+        {
+          "description": "FIDELITY INSTL MMKT PORT CL I",
+          "cusip": null,
+          "ticker": "FMPXX",
+          "asset_type": "Mutual Funds",
+          "quantity": 5025.81,
+          "price": 1,
+          "market_value": 5025.81
+        },
+        {
+          "description": "SPDR SER TR BARCLAYS CAP HIGH YIELD BD ETF",
+          "cusip": null,
+          "ticker": "JNK",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 250,
+          "price": 40.66,
+          "market_value": 10165
+        },
+        {
+          "description": "VANGUARD INTL EQUITY INDEX FDS MSCI EUROPE ETF",
+          "cusip": null,
+          "ticker": "VJK",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 100,
+          "price": 42.97,
+          "market_value": 4297
+        },
+        {
+          "description": "APPLE INC",
+          "cusip": null,
+          "ticker": "AAPL",
+          "asset_type": "Stocks",
+          "quantity": 25,
+          "price": 525.31,
+          "market_value": 13132.75
+        },
+        {
+          "description": "AMERCO COM",
+          "cusip": null,
+          "ticker": "UHAL",
+          "asset_type": "Stocks",
+          "quantity": 30,
+          "price": 203.15,
+          "market_value": 6094.5
+        },
+        {
+          "description": "ENSTAR GROUP LIMITED COM STK USD 1.00",
+          "cusip": null,
+          "ticker": "ESGR",
+          "asset_type": "Stocks",
+          "quantity": -100,
+          "price": 137.1,
+          "market_value": -13710
+        },
+        {
+          "description": "BANK AMER CORP DEP SHS REPSTG 1/1200TH PFD SER 5",
+          "cusip": null,
+          "ticker": "BMLPRL",
+          "asset_type": "Preferred Stocks",
+          "quantity": 150,
+          "price": 20.23,
+          "market_value": 3034.5
+        },
+        {
+          "description": "M CITIGROUP INC DEP SH REP STG 1/100TH INT NON CUMULATIVE PFD SER F 8.50%",
+          "cusip": "US1729675561",
+          "ticker": "CPRM",
+          "asset_type": "Preferred Stocks",
+          "quantity": 300,
+          "price": 25.843,
+          "market_value": 7752.9
+        },
+        {
+          "description": "FEDERAL NATL MTG ASSN",
+          "cusip": "3136FPEX1",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 100,
+          "market_value": 10000
+        },
+        {
+          "description": "SABRATEK CORP NT CV",
+          "cusip": "78571UAA6",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 5000,
+          "price": 101.25,
+          "market_value": 5062.5
+        },
+        {
+          "description": "CALPINE CORP ESCROW 4 131347BD7",
+          "cusip": "131ESC9D9",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 99.5,
+          "market_value": 9950
+        },
+        {
+          "description": "NEW YORK N Y CITY INDL DEV AGY REV",
+          "cusip": "64971PEN1",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 107.442,
+          "market_value": 10744.2
+        },
+        {
+          "description": "TXU SR NT-P",
+          "cusip": "873168AL2",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 5000,
+          "price": 100,
+          "market_value": 5000
+        },
+        {
+          "description": "UNITED STATES TREAS BILLS",
+          "cusip": "912796BL2",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 99,
+          "market_value": 9900
+        },
+        {
+          "description": "ADI NET LEASE INC & GROWTH LP XIX UNIT",
+          "cusip": null,
+          "ticker": "unknown",
+          "asset_type": "Other",
+          "quantity": 5,
+          "price": 291,
+          "market_value": 1455
+        },
+        {
+          "description": "M VENTAS INC (VTR)",
+          "cusip": null,
+          "ticker": "VTR",
+          "asset_type": "Other",
+          "quantity": 500,
+          "price": 10.57,
+          "market_value": 5285
+        }
+      ],
+      "account_total_value": 103351.18
+    },
+    {
+      "account_name": "John W. Doe - Traditional IRA",
+      "account_number": "222-222222",
+      "account_type": "PERSONAL RETIREMENT",
+      "holdings": [
+        {
+          "description": "FIDELITY CASH RESERVES (FDRXX)",
+          "cusip": null,
+          "ticker": "FDRXX",
+          "asset_type": "Core Account",
+          "quantity": 2070.88,
+          "price": 1,
+          "market_value": 2070.88
+        },
+        {
+          "description": "APPLE INC",
+          "cusip": null,
+          "ticker": "AAPL",
+          "asset_type": "Stocks",
+          "quantity": 30,
+          "price": 525.31,
+          "market_value": 15759.3
+        },
+        {
+          "description": "EXXON MOBILE",
+          "cusip": null,
+          "ticker": "XOM",
+          "asset_type": "Stocks",
+          "quantity": 50,
+          "price": 87.96,
+          "market_value": 4398
+        },
+        {
+          "description": "FACEBOOK",
+          "cusip": null,
+          "ticker": "FB",
+          "asset_type": "Stocks",
+          "quantity": 60,
+          "price": 25.16,
+          "market_value": 1509.6
+        },
+        {
+          "description": "GENERAL MOTORS CO USD0.01",
+          "cusip": "US37045V1008",
+          "ticker": "GM",
+          "asset_type": "Stocks",
+          "quantity": 209,
+          "price": 35.56,
+          "market_value": 7432.04
+        },
+        {
+          "description": "SLM CORP CPI LKD NT FLTG RATE 0.00% 03/15/2017",
+          "cusip": null,
+          "ticker": "OSM",
+          "asset_type": "Stocks",
+          "quantity": 590,
+          "price": 23.49,
+          "market_value": 13859.1
+        },
+        {
+          "description": "STANDARD PACIFIC CORP",
+          "cusip": null,
+          "ticker": "SPF",
+          "asset_type": "Stocks",
+          "quantity": 5100,
+          "price": 9.238,
+          "market_value": 47113.8
+        },
+        {
+          "description": "WESTMORELAND COAL CO DEP SHS EACH REPSTG 1/4 OF SHS SER A CV ESCH",
+          "cusip": null,
+          "ticker": "WLBPZ",
+          "asset_type": "Stocks",
+          "quantity": 300,
+          "price": 30.48,
+          "market_value": 9144
+        },
+        {
+          "description": "SABRATEK CORP NT CV",
+          "cusip": "78571UAA6",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 100,
+          "market_value": 10000
+        },
+        {
+          "description": "DELPHI CORP JR SB NT",
+          "cusip": "247126AF2",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 15000,
+          "price": 102.5,
+          "market_value": 15375
+        },
+        {
+          "description": "ESCROW GEN MOTORS CORP BOND",
+          "cusip": "370ESCAT2",
+          "ticker": null,
+          "asset_type": "Bonds",
+          "quantity": 10000,
+          "price": 101,
+          "market_value": 10100
+        },
+        {
+          "description": "GENERAL MTRS CO WTS EXP 07/10/2016",
+          "cusip": null,
+          "ticker": "GMWSA",
+          "asset_type": "Other",
+          "quantity": 190,
+          "price": 15.29,
+          "market_value": 2905.1
+        },
+        {
+          "description": "GENERAL MTRS CO WTS EXP 07/10/2019",
+          "cusip": null,
+          "ticker": "GMWSB",
+          "asset_type": "Other",
+          "quantity": 190,
+          "price": 10.57,
+          "market_value": 2008.3
+        },
+        {
+          "description": "SOUTHWEST ROYALTIES INSTITUTIONAL INCOME FUND LP IX-B",
+          "cusip": null,
+          "ticker": null,
+          "asset_type": "Other",
+          "quantity": 6,
+          "price": 123,
+          "market_value": 738
+        }
+      ],
+      "account_total_value": 142413.12
+    },
+    {
+      "account_name": "John W. Doe - Education Account",
+      "account_number": "333-333333",
+      "account_type": "EDUCATION (529) ACCOUNTS",
+      "holdings": [
+        {
+          "description": "NH Portfolio 2015 (Fidelity Funds)",
+          "cusip": null,
+          "ticker": null,
+          "asset_type": null,
+          "quantity": 1200.291,
+          "price": 17.68,
+          "market_value": 21221.14
+        },
+        {
+          "description": "NH Moderate Growth Port (Fidelity Funds)",
+          "cusip": null,
+          "ticker": null,
+          "asset_type": null,
+          "quantity": 463.301,
+          "price": 15.62,
+          "market_value": 7236.76
+        }
+      ],
+      "account_total_value": 28457.9
+    }
+  ],
+  "statement_total_value": 274222.2,
+  "audit": {
+    "section_presence": {
+      "status": "present",
+      "missing_sections": []
+    },
+    "account_header_parsing": {
+      "status": "complete",
+      "accounts_missing_fields": []
+    },
+    "holdings_to_account": [
+      {
+        "account_number": "111-111111",
+        "holdings_sum": 108051,
+        "account_total_value": 103351.18,
+        "difference": -4699.82,
+        "status": "difference noted"
+      },
+      {
+        "account_number": "222-222222",
+        "holdings_sum": 142413.12,
+        "account_total_value": 142413.12,
+        "difference": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "333-333333",
+        "holdings_sum": 28457.9,
+        "account_total_value": 28457.9,
+        "difference": 0,
+        "status": "match"
+      }
+    ],
+    "accounts_to_statement": {
+      "total_of_account_values": 274222.2,
+      "statement_total_value": 274222.2,
+      "difference": 0,
+      "status": "match"
+    },
+    "quantity_value_logic": [
+      {
+        "account_number": "111-111111",
+        "cusip_or_ticker": "AAPL",
+        "computed_value": 13132.75,
+        "reported_market_value": 13132.75,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "111-111111",
+        "cusip_or_ticker": "DBLTX",
+        "computed_value": 10115.5,
+        "reported_market_value": 11361.52,
+        "difference_pct": 12.3,
+        "status": "discrepancy due to accrued interest or other"
+      },
+      {
+        "account_number": "222-222222",
+        "cusip_or_ticker": "AAPL",
+        "computed_value": 15759.3,
+        "reported_market_value": 15759.3,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "333-333333",
+        "cusip_or_ticker": null,
+        "computed_value": 28457.9,
+        "reported_market_value": 28457.9,
+        "difference_pct": 0,
+        "status": "match"
+      }
+    ],
+    "zero_negative_guard": {
+      "status": "issues found",
+      "problem_rows": [
+        {
+          "account_number": "111-111111",
+          "description": "ENSTAR GROUP LIMITED COM STK USD 1.00",
+          "quantity": -100,
+          "market_value": -13710
+        }
+      ]
+    },
+    "rounding_coherence": {
+      "status": "no issues",
+      "accounts_with_issues": []
+    },
+    "duplicate_security_id": {
+      "status": "no duplicates",
+      "duplicates_found": []
+    },
+    "missing_identifier": {
+      "status": "some missing",
+      "holdings_without_id": [
+        "FDIC INSURED DEPOSIT AT FIFTH THIRD BANK",
+        "NH Portfolio 2015 (Fidelity Funds)",
+        "NH Moderate Growth Port (Fidelity Funds)",
+        "ADI NET LEASE INC & GROWTH LP XIX UNIT",
+        "M VENTAS INC (VTR)",
+        "FIDELITY INSTL MMKT PORT CL I",
+        "CALPINE CORP ESCROW 4 131347BD7",
+        "TXU SR NT-P",
+        "GENERAL MTRS CO WTS EXP 07/10/2016",
+        "GENERAL MTRS CO WTS EXP 07/10/2019",
+        "SOUTHWEST ROYALTIES INSTITUTIONAL INCOME FUND LP IX-B"
+      ]
+    },
+    "missing_value_fields": {
+      "status": "none",
+      "rows_missing_values": []
+    },
+    "currency_symbol_coherence": {
+      "status": "consistent",
+      "mixed_currencies_detected": []
+    },
+    "date_range_sanity": {
+      "status": "no future dates",
+      "future_dates_found": []
+    },
+    "header_footer_total_match": {
+      "footer_total_value": 274222.2,
+      "statement_total_value": 274222.2,
+      "difference": 0,
+      "status": "match"
+    },
+    "overall_status": "complete with minor discrepancies",
+    "requires_human_review": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "headless": true
+    },
+    "contextOptions": {
+      "viewport": { "width": 1280, "height": 720 }
+    }
+  },
+  "server": {
+    "port": 8931,
+    "host": "localhost"
+  },
+  "capabilities": [
+    "core",
+    "tabs",
+    "pdf",
+    "history",
+    "wait",
+    "files",
+    "install"
+  ],
+  "outputDir": "/Users/andrew/Projects/claudecode1/src/playwright/output"
+}

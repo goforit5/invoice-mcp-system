@@ -1,0 +1,284 @@
+{
+  "invoice_metadata": {
+    "invoice_number": "236546",
+    "invoice_type": "Original",
+    "source_file_name": "Clipboard Health 236546_2025-06-02T03-39-56.pdf",
+    "issue_date": "01/22/2024",
+    "due_date": "02/21/2024",
+    "period_start_date": "01/14/2024",
+    "period_end_date": "01/20/2024",
+    "balance_due": "6729.22",
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": "Clipboard Health (Twomagnets Inc.)",
+    "address": "P.O. Box 103125",
+    "city": "Pasadena",
+    "state": "CA",
+    "zip": "91189-3125",
+    "phone": "408-837-0116",
+    "email": null,
+    "website": null,
+    "contact_name": null,
+    "remittance_address": "TwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125"
+  },
+  "customer": {
+    "name": "Antelope Valley Care Center",
+    "address": "44567 15th Street West",
+    "city": "Lancaster",
+    "state": "CA",
+    "zip": "93534",
+    "account_number": "0015w000029XkLKAA0",
+    "facility_id": null,
+    "contact_name": null
+  },
+  "line_items": [
+    {
+      "date": "01/14/2024",
+      "description": "LVN / LPN Crystal Castillo Young, AM",
+      "quantity": 6.32,
+      "unit": null,
+      "rate": 88.0,
+      "amount": 556.16,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $88/hr on 01/14; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 88; Shift Times: Shift start: 01/14/2024 12:30 AM; Shift end: 01/14/2024 07:19 AM; Break start: 01/14/2024 04:41 AM; Break end: 01/14/2024 05:11 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "LVN / LPN Rekia Daniels, AM",
+      "quantity": 5.5,
+      "unit": null,
+      "rate": 90.0,
+      "amount": 495.0,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $90/hr on 01/14; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 90; Shift Times: Shift start: 01/14/2024 01:27 AM; Shift end: 01/14/2024 07:50 AM; Break start: 01/14/2024 04:39 AM; Break end: 01/14/2024 05:09 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "LVN / LPN Margrette Cummings, AM",
+      "quantity": 6.74,
+      "unit": null,
+      "rate": 78.0,
+      "amount": 525.72,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $78/hr on 01/14; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 78; Shift Times: Shift start: 01/14/2024 08:05 AM; Shift end: 01/14/2024 03:19 PM; Break start: 01/14/2024 11:42 AM; Break end: 01/14/2024 12:12 PM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "CNA Sara. Cruz, NOC",
+      "quantity": 7.49,
+      "unit": null,
+      "rate": 40.0,
+      "amount": 299.6,
+      "notes": "Rate Override by Edith Gonzalez from $33/hr to $40/hr on 01/14; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 40; Shift Times: Shift start: 01/14/2024 11:02 PM; Shift end: 01/15/2024 07:01 AM; Break start: 01/15/2024 02:32 AM; Break end: 01/15/2024 03:02 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "CNA Zaqueiea Brown, NOC",
+      "quantity": 7.49,
+      "unit": null,
+      "rate": 38.0,
+      "amount": 284.62,
+      "notes": "Rate Override by Edith Gonzalez from $33/hr to $38/hr on 01/14; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 38; Shift Times: Shift start: 01/14/2024 11:04 PM; Shift end: 01/15/2024 07:03 AM; Break start: 01/15/2024 02:54 AM; Break end: 01/15/2024 03:24 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "CNA Iyrelle Jones, NOC",
+      "quantity": 7.47,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 246.51,
+      "notes": "Charge Breakdown: Base Rate: 33; Shift Times: Shift start: 01/14/2024 11:02 PM; Shift end: 01/15/2024 07:00 AM; Break start: 01/15/2024 03:00 AM; Break end: 01/15/2024 03:30 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "CNA Anthony Navarro, NOC",
+      "quantity": 7.49,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 247.17,
+      "notes": "Charge Breakdown: Base Rate: 33; Shift Times: Shift start: 01/14/2024 11:01 PM; Shift end: 01/15/2024 07:01 AM; Break start: 01/15/2024 05:50 AM; Break end: 01/15/2024 06:21 AM"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "LVN / LPN Catherine Reyes, NOC, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 58.0,
+      "amount": 116.0,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $58/hr on 01/14; Charge Breakdown: Base Rate: 48; Hazard Differential: 0; Manual Variable Charge: 58; Invoice Item Note: Cancelation charge for 2 hours. Pristine Orszulak canceled this shift on Sun Jan 14 2024 22:08; Shift Times: Shift start: 01/14/2024 11:00 PM; Shift end: 01/15/2024 07:30 AM"
+    },
+    {
+      "date": "01/15/2024",
+      "description": "CNA Cecilia Zapata Munoz, AM",
+      "quantity": 3.94,
+      "unit": null,
+      "rate": 40.0,
+      "amount": 157.6,
+      "notes": "Rate Override by Edith Gonzalez from $33/hr to $40/hr on 01/15; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 40; Shift Times: Shift start: 01/15/2024 11:12 AM; Shift end: 01/15/2024 03:08 PM"
+    },
+    {
+      "date": "01/15/2024",
+      "description": "CNA David Smallwood-kent, NOC, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 38.0,
+      "amount": 76.0,
+      "notes": "Rate Override by Edith Gonzalez from $33/hr to $38/hr on 01/15; Charge Breakdown: Base Rate: 33; Hazard Differential: 0; Manual Variable Charge: 38; Invoice Item Note: Cancelation charge for 2 hours. Edith Gonzalez canceled this shift on Mon Jan 15 2024 21:42; Shift Times: Shift start: 01/15/2024 11:00 PM; Shift end: 01/16/2024 07:00 AM"
+    },
+    {
+      "date": "01/15/2024",
+      "description": "CNA Keaishi Johnson, NOC, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 66.0,
+      "notes": "Charge Breakdown: Base Rate: 33; Hazard Differential: 0; Invoice Item Note: Cancelation charge for 2 hours. Edith Gonzalez canceled this shift on Mon Jan 15 2024 21:57; Shift Times: Shift start: 01/15/2024 11:00 PM; Shift end: 01/16/2024 07:00 AM"
+    },
+    {
+      "date": "01/16/2024",
+      "description": "CNA Zaqueiea Brown, NOC",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 43.0,
+      "amount": 322.5,
+      "notes": "Rate Override by Pristine Orszulak from $33/hr to $43/hr on 01/16; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 43; Shift Times: Shift start: 01/16/2024 11:04 PM; Shift end: 01/17/2024 07:24 AM; Break start: 01/17/2024 03:46 AM; Break end: 01/17/2024 04:16 AM"
+    },
+    {
+      "date": "01/16/2024",
+      "description": "RN Romelie Angel Dela Cruz, NOC, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 100.0,
+      "amount": 200.0,
+      "notes": "Rate Override by Pristine Orszulak from $70/hr to $100/hr on 01/16; Charge Breakdown: Base Rate: 70; Hazard Differential: 0; Manual Variable Charge: 100; Invoice Item Note: Cancelation charge for 2 hours. Pristine Orszulak canceled this shift on Tue Jan 16 2024 21:27; Shift Times: Shift start: 01/16/2024 11:00 PM; Shift end: 01/17/2024 07:30 AM"
+    },
+    {
+      "date": "01/17/2024",
+      "description": "LVN / LPN Margrette Cummings, AM",
+      "quantity": 7.09,
+      "unit": null,
+      "rate": 58.0,
+      "amount": 411.22,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $58/hr on 01/17; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 58; Shift Times: Shift start: 01/17/2024 08:18 AM; Shift end: 01/17/2024 03:53 PM; Break start: 01/17/2024 12:06 PM; Break end: 01/17/2024 12:36 PM"
+    },
+    {
+      "date": "01/17/2024",
+      "description": "LVN / LPN Isabel Garcia, AM",
+      "quantity": 8.49,
+      "unit": null,
+      "rate": 65.0,
+      "amount": 551.85,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $65/hr on 01/17; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 65; Shift Times: Shift start: 01/17/2024 09:15 AM; Shift end: 01/17/2024 06:14 PM; Break start: 01/17/2024 01:45 PM; Break end: 01/17/2024 02:15 PM"
+    },
+    {
+      "date": "01/17/2024",
+      "description": "CNA Cecilia Zapata Munoz, PM, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 66.0,
+      "notes": "Charge Breakdown: Base Rate: 33; Hazard Differential: 0; Invoice Item Note: Cancelation charge for 2 hours. Estela Ortiz canceled this shift on Wed Jan 17 2024 15:31; Shift Times: Shift start: 01/17/2024 04:30 PM; Shift end: 01/17/2024 11:00 PM"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA Zaqueiea Brown, AM",
+      "quantity": 6.27,
+      "unit": null,
+      "rate": 38.0,
+      "amount": 238.26,
+      "notes": "Rate Override by Edith Gonzalez from $33/hr to $38/hr on 01/18; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 38; Shift Times: Shift start: 01/18/2024 08:09 AM; Shift end: 01/18/2024 03:05 PM; Break start: 01/18/2024 12:00 PM; Break end: 01/18/2024 12:40 PM"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA Cecilia Zapata Munoz, AM",
+      "quantity": 5.75,
+      "unit": null,
+      "rate": 38.0,
+      "amount": 218.5,
+      "notes": "Rate Override by Estela Ortiz from $33/hr to $38/hr on 01/18; Charge Breakdown: Base Rate: 33; Manual Variable Charge: 38; Shift Times: Shift start: 01/18/2024 08:47 AM; Shift end: 01/18/2024 03:02 PM; Break start: 01/18/2024 11:55 AM; Break end: 01/18/2024 12:25 PM"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA Cecilia Zapata Munoz, PM",
+      "quantity": 6.5,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 214.5,
+      "notes": "Charge Breakdown: Base Rate: 33; Shift Times: Shift start: 01/18/2024 03:59 PM; Shift end: 01/18/2024 11:32 PM; Break start: 01/18/2024 09:57 PM; Break end: 01/18/2024 10:27 PM"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA Susan Fisher, NOC",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 247.5,
+      "notes": "Charge Breakdown: Base Rate: 33; Shift Times: Shift start: 01/18/2024 11:12 PM; Shift end: 01/19/2024 07:14 AM; Break start: 01/19/2024 03:30 AM; Break end: 01/19/2024 04:00 AM"
+    },
+    {
+      "date": "01/19/2024",
+      "description": "CNA Sileola Jalade, NOC",
+      "quantity": 7.47,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 246.51,
+      "notes": "Charge Breakdown: Base Rate: 33; Shift Times: Shift start: 01/19/2024 11:02 PM; Shift end: 01/20/2024 07:00 AM; Break start: 01/20/2024 02:10 AM; Break end: 01/20/2024 02:40 AM"
+    },
+    {
+      "date": "01/20/2024",
+      "description": "LVN / LPN Adesuwa Mukoro, PM",
+      "quantity": 8,
+      "unit": null,
+      "rate": 63.0,
+      "amount": 504.0,
+      "notes": "Rate Override by Pristine Orszulak from $48/hr to $63/hr on 01/20; Charge Breakdown: Base Rate: 48; Manual Variable Charge: 63; Shift Times: Shift start: 01/20/2024 03:00 PM; Shift end: 01/21/2024 12:12 AM; Break start: 01/20/2024 10:27 PM; Break end: 01/20/2024 10:57 PM"
+    },
+    {
+      "date": "01/20/2024",
+      "description": "LVN / LPN Patricia Clark, PM",
+      "quantity": 7.75,
+      "unit": null,
+      "rate": 48.0,
+      "amount": 372.0,
+      "notes": "Charge Breakdown: Base Rate: 48; Shift Times: Shift start: 01/20/2024 03:18 PM; Shift end: 01/20/2024 11:35 PM; Break start: 01/20/2024 07:00 PM; Break end: 01/20/2024 07:32 PM"
+    },
+    {
+      "date": "01/20/2024",
+      "description": "CNA Zaqueiea Brown, NOC, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 66.0,
+      "notes": "Charge Breakdown: Base Rate: 33; Hazard Differential: 0; Invoice Item Note: Cancelation charge for 2 hours. Edith Gonzalez canceled this shift on Sat Jan 20 2024 21:00; Shift Times: Shift start: 01/20/2024 11:00 PM; Shift end: 01/21/2024 07:00 AM"
+    }
+  ],
+  "totals": {
+    "subtotal": null,
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": "6729.22"
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": "322271627",
+      "account_number": "691307901",
+      "account_name": "TWOMAGNETS, INC."
+    },
+    "wire": {
+      "routing_number": "021000021",
+      "swift_code": "CHASUS33",
+      "account_number": "691307901",
+      "account_name": "TWOMAGNETS, INC.",
+      "bank_address": "JPMorgan Chase New York, NY 10017"
+    },
+    "credit_card": {
+      "instructions": "In your Invoiced.com portal link > my account > pay now > select the invoices you will pay > click next> note payment amount > select credit card as the payment method > enter card information and click pay. We will give you a receipt immediately following a successful payment."
+    },
+    "postal": {
+      "regular": "TwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125",
+      "courier": "TwoMagnets Inc.\nJPMorgan Chase Attn: TwoMagnets Inc. & 103125\n2710 Media Center Dr. Building # 6, Suite # 120 Los Angeles, CA. 90065"
+    }
+  },
+  "terms_and_conditions": "For these payments, please remember to include your remittance guidance (such as which invoices you want this payment applied to) in your transfer request.",
+  "dispute_instructions": "If you see any issues with the items contained in this invoice, please raise a dispute within the dispute terms contained in your contract.",
+  "miscellaneous_fields": {}
+}

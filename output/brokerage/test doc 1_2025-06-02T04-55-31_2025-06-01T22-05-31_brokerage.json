@@ -1,0 +1,1634 @@
+{
+  "statement_metadata": {
+    "statement_provider": "Fidelity Brokerage Services LLC",
+    "statement_date": null,
+    "statement_period_start": "2024-01-01",
+    "statement_period_end": "2024-12-31",
+    "statement_type": "2024 YEAR-END INVESTMENT REPORT",
+    "source_file_name": "test doc 1_2025-06-02T04-55-31.pdf"
+  },
+  "customer": {
+    "name": null,
+    "address": null,
+    "account_number": "Y98-981405",
+    "client_id": null,
+    "advisor_name": null
+  },
+  "accounts": [
+    {
+      "account_name": null,
+      "account_number": "Y98-981405",
+      "account_type": null,
+      "holdings": [
+        {
+          "description": "FIDELITY GOVERNMENT CASH RESERVES (FDRXX)",
+          "cusip": "316067107",
+          "ticker": null,
+          "asset_type": "Short-term Funds",
+          "quantity": null,
+          "price": 1508.13,
+          "market_value": 1508.13
+        },
+        {
+          "description": "AMCOR PLC ORD USD0.01",
+          "cusip": null,
+          "ticker": "AMCR",
+          "asset_type": "Stock",
+          "quantity": 0.1517,
+          "price": 62.05,
+          "market_value": 9.41
+        },
+        {
+          "description": "AON PLC SHS CL A COM USD0.01",
+          "cusip": null,
+          "ticker": "AON",
+          "asset_type": "Stock",
+          "quantity": 0.27,
+          "price": 1.33,
+          "market_value": 359.16
+        },
+        {
+          "description": "ACCENTURE PLC",
+          "cusip": null,
+          "ticker": "ACN",
+          "asset_type": "Stock",
+          "quantity": 0.0753,
+          "price": 4.67,
+          "market_value": 351.79
+        },
+        {
+          "description": "EATON CORPORATION PLC",
+          "cusip": null,
+          "ticker": "ETN",
+          "asset_type": "Stock",
+          "quantity": 0.0664,
+          "price": 5.0,
+          "market_value": 331.87
+        },
+        {
+          "description": "JOHNSON CONTROLS INTERNATIONAL PLC COM USD1.00",
+          "cusip": null,
+          "ticker": "JCI",
+          "asset_type": "Stock",
+          "quantity": 0.00564,
+          "price": 14.0,
+          "market_value": 78.93
+        },
+        {
+          "description": "LINDE PLC COM EUR0.001",
+          "cusip": null,
+          "ticker": "LIN",
+          "asset_type": "Stock",
+          "quantity": 0.1047,
+          "price": 4.0,
+          "market_value": 418.67
+        },
+        {
+          "description": "MEDTRONIC PLC",
+          "cusip": null,
+          "ticker": "MDT",
+          "asset_type": "Stock",
+          "quantity": 0.00845,
+          "price": 9.45,
+          "market_value": 79.88
+        },
+        {
+          "description": "TE CONNECTIVITY PLC COM USD0.01",
+          "cusip": null,
+          "ticker": "TEL",
+          "asset_type": "Stock",
+          "quantity": 0.03574,
+          "price": 4.0,
+          "market_value": 142.97
+        },
+        {
+          "description": "TRANE TECHNOLOGIES PLC COM USD1",
+          "cusip": null,
+          "ticker": "TT",
+          "asset_type": "Stock",
+          "quantity": 0.07387,
+          "price": 5.0,
+          "market_value": 369.35
+        },
+        {
+          "description": "GARMIN LTD COM CHF10.00",
+          "cusip": null,
+          "ticker": "GRMN",
+          "asset_type": "Stock",
+          "quantity": 0.03438,
+          "price": 6.0,
+          "market_value": 206.26
+        },
+        {
+          "description": "LYONDELLBASELL INDUSTRIES N V COM EURO.04 CLASS A",
+          "cusip": null,
+          "ticker": "LYB",
+          "asset_type": "Stock",
+          "quantity": 0.01485,
+          "price": 5.0,
+          "market_value": 74.27
+        },
+        {
+          "description": "NXP SEMICONDUCTORS NV",
+          "cusip": null,
+          "ticker": "NXPI",
+          "asset_type": "Stock",
+          "quantity": 0.04157,
+          "price": 5.0,
+          "market_value": 207.85
+        },
+        {
+          "description": "AFLAC INC COM",
+          "cusip": null,
+          "ticker": "AFL",
+          "asset_type": "Stock",
+          "quantity": 0.01149,
+          "price": 9.0,
+          "market_value": 103.44
+        },
+        {
+          "description": "AES CORP COM USD0.01",
+          "cusip": null,
+          "ticker": "AES",
+          "asset_type": "Stock",
+          "quantity": 24.41,
+          "price": 12.87,
+          "market_value": 314.15
+        },
+        {
+          "description": "AT&T INC COM USD1",
+          "cusip": null,
+          "ticker": "T",
+          "asset_type": "Stock",
+          "quantity": 78.45,
+          "price": 22.77,
+          "market_value": 1786.3
+        },
+        {
+          "description": "ABBOTT LABORATORIES",
+          "cusip": null,
+          "ticker": "ABT",
+          "asset_type": "Stock",
+          "quantity": 16.05,
+          "price": 113.11,
+          "market_value": 1815.41
+        },
+        {
+          "description": "ABBVIE INC COM USD0.01",
+          "cusip": null,
+          "ticker": "ABBV",
+          "asset_type": "Stock",
+          "quantity": 14.26,
+          "price": 177.7,
+          "market_value": 2534.0
+        },
+        {
+          "description": "ADOBE INC COM",
+          "cusip": null,
+          "ticker": "ADBE",
+          "asset_type": "Stock",
+          "quantity": 2.98,
+          "price": 444.68,
+          "market_value": 1325.14
+        },
+        {
+          "description": "ADVANCED MICRO DEVICES INC",
+          "cusip": null,
+          "ticker": "AMD",
+          "asset_type": "Stock",
+          "quantity": 12.42,
+          "price": 120.79,
+          "market_value": 1500.21
+        },
+        {
+          "description": "AGILENT TECHNOLOGIES INC COM USD0.01",
+          "cusip": null,
+          "ticker": "A",
+          "asset_type": "Stock",
+          "quantity": 6.94,
+          "price": 134.34,
+          "market_value": 932.31
+        },
+        {
+          "description": "AIRBNB INC COM CL A",
+          "cusip": null,
+          "ticker": "ABNB",
+          "asset_type": "Stock",
+          "quantity": 3.525,
+          "price": 131.41,
+          "market_value": 463.22
+        },
+        {
+          "description": "AIR PRODUCTS AND CHEMICALS INC",
+          "cusip": null,
+          "ticker": "APD",
+          "asset_type": "Stock",
+          "quantity": 1.64,
+          "price": 290.04,
+          "market_value": 475.66
+        },
+        {
+          "description": "ALIGN TECHNOLOGY INC COM USD0.0001",
+          "cusip": null,
+          "ticker": "ALGN",
+          "asset_type": "Stock",
+          "quantity": 2.05,
+          "price": 208.51,
+          "market_value": 427.44
+        },
+        {
+          "description": "ALLSTATE CORP COM USD0.01",
+          "cusip": null,
+          "ticker": "ALL",
+          "asset_type": "Stock",
+          "quantity": 2.9,
+          "price": 192.79,
+          "market_value": 559.09
+        },
+        {
+          "description": "ALPHABET INC CAP STK CL C",
+          "cusip": null,
+          "ticker": "GOOG",
+          "asset_type": "Stock",
+          "quantity": 41.585,
+          "price": 190.44,
+          "market_value": 7919.44
+        },
+        {
+          "description": "ALPHABET INC CAP STK CL A",
+          "cusip": null,
+          "ticker": "GOOGL",
+          "asset_type": "Stock",
+          "quantity": 48.389,
+          "price": 189.3,
+          "market_value": 9160.03
+        },
+        {
+          "description": "ALTRIA GROUP INC",
+          "cusip": null,
+          "ticker": "MO",
+          "asset_type": "Stock",
+          "quantity": 13.44,
+          "price": 52.29,
+          "market_value": 702.77
+        },
+        {
+          "description": "AMAZON.COM INC",
+          "cusip": null,
+          "ticker": "AMZN",
+          "asset_type": "Stock",
+          "quantity": 76.144,
+          "price": 219.39,
+          "market_value": 16705.23
+        },
+        {
+          "description": "AMERICAN ELEC PWR CO INC COM",
+          "cusip": null,
+          "ticker": "AEP",
+          "asset_type": "Stock",
+          "quantity": 6.74,
+          "price": 92.23,
+          "market_value": 621.63
+        },
+        {
+          "description": "AMERICAN EXPRESS CO COM USD0.20",
+          "cusip": null,
+          "ticker": "AXP",
+          "asset_type": "Stock",
+          "quantity": 4.23,
+          "price": 296.79,
+          "market_value": 1255.42
+        },
+        {
+          "description": "AMERICAN INTERNATIONAL GROUP INC",
+          "cusip": null,
+          "ticker": "AIG",
+          "asset_type": "Stock",
+          "quantity": 11.97,
+          "price": 72.8,
+          "market_value": 871.41
+        },
+        {
+          "description": "AMETEK INC COM",
+          "cusip": null,
+          "ticker": "AME",
+          "asset_type": "Stock",
+          "quantity": 5.0,
+          "price": 180.26,
+          "market_value": 901.3
+        },
+        {
+          "description": "AMGEN INC",
+          "cusip": null,
+          "ticker": "AMGN",
+          "asset_type": "Stock",
+          "quantity": 5.29,
+          "price": 260.64,
+          "market_value": 1378.78
+        },
+        {
+          "description": "AMPHENOL CORP CLASS A COM USD0.001",
+          "cusip": null,
+          "ticker": "APH",
+          "asset_type": "Stock",
+          "quantity": 16.0,
+          "price": 69.45,
+          "market_value": 1111.2
+        },
+        {
+          "description": "ANALOG DEVICES INC COM",
+          "cusip": null,
+          "ticker": "ADI",
+          "asset_type": "Stock",
+          "quantity": 3.279,
+          "price": 212.46,
+          "market_value": 696.65
+        },
+        {
+          "description": "ANSYS INC COM USD0.01",
+          "cusip": null,
+          "ticker": "ANSS",
+          "asset_type": "Stock",
+          "quantity": 3.0,
+          "price": 337.33,
+          "market_value": 1011.99
+        },
+        {
+          "description": "ELEVANCE HEALTH INC COM",
+          "cusip": null,
+          "ticker": "ELV",
+          "asset_type": "Stock",
+          "quantity": 1.47,
+          "price": 368.9,
+          "market_value": 542.28
+        },
+        {
+          "description": "APOLLO GLOBAL MGMT INC COM",
+          "cusip": null,
+          "ticker": "APO",
+          "asset_type": "Stock",
+          "quantity": 8.0,
+          "price": 165.16,
+          "market_value": 1321.28
+        },
+        {
+          "description": "APPLE INC",
+          "cusip": null,
+          "ticker": "AAPL",
+          "asset_type": "Stock",
+          "quantity": 125.168,
+          "price": 250.42,
+          "market_value": 31344.57
+        },
+        {
+          "description": "APPLIED MATERIALS INC COM USD0.01",
+          "cusip": null,
+          "ticker": "AMAT",
+          "asset_type": "Stock",
+          "quantity": 4.81,
+          "price": 162.63,
+          "market_value": 782.25
+        },
+        {
+          "description": "APPLOVIN CORP COM CL A",
+          "cusip": null,
+          "ticker": "APP",
+          "asset_type": "Stock",
+          "quantity": 1.33,
+          "price": 323.83,
+          "market_value": 430.69
+        },
+        {
+          "description": "ARISTA NETWORKS INC COM SHS",
+          "cusip": null,
+          "ticker": "ANET",
+          "asset_type": "Stock",
+          "quantity": 6.96,
+          "price": 110.53,
+          "market_value": 769.28
+        },
+        {
+          "description": "ATLASSIAN CORPORATION CL A",
+          "cusip": null,
+          "ticker": "TEAM",
+          "asset_type": "Stock",
+          "quantity": 1.89,
+          "price": 243.38,
+          "market_value": 459.98
+        },
+        {
+          "description": "AUTODESK INC",
+          "cusip": null,
+          "ticker": "ADSK",
+          "asset_type": "Stock",
+          "quantity": 2.101,
+          "price": 295.57,
+          "market_value": 620.99
+        },
+        {
+          "description": "AUTOMATIC DATA PROCESSING INC COM",
+          "cusip": null,
+          "ticker": "ADP",
+          "asset_type": "Stock",
+          "quantity": 6.0,
+          "price": 292.73,
+          "market_value": 1756.38
+        },
+        {
+          "description": "AUTOZONE INC COM USD0.01",
+          "cusip": null,
+          "ticker": "AZO",
+          "asset_type": "Stock",
+          "quantity": 0.12,
+          "price": 3202.0,
+          "market_value": 384.24
+        },
+        {
+          "description": "AVANTOR INC COM",
+          "cusip": null,
+          "ticker": "AVTR",
+          "asset_type": "Stock",
+          "quantity": 14.4,
+          "price": 21.07,
+          "market_value": 303.4
+        },
+        {
+          "description": "AXON ENTERPRISE INC COM",
+          "cusip": null,
+          "ticker": "AXON",
+          "asset_type": "Stock",
+          "quantity": 0.49,
+          "price": 594.32,
+          "market_value": 291.21
+        },
+        {
+          "description": "BANK AMERICA CORP COM",
+          "cusip": null,
+          "ticker": "BAC",
+          "asset_type": "Stock",
+          "quantity": 48.66,
+          "price": 43.95,
+          "market_value": 2138.6
+        },
+        {
+          "description": "BANK OF NEW YORK MELLON CORP COM USD0.01",
+          "cusip": null,
+          "ticker": "BK",
+          "asset_type": "Stock",
+          "quantity": 11.0,
+          "price": 76.83,
+          "market_value": 845.13
+        },
+        {
+          "description": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+          "cusip": null,
+          "ticker": "BRKB",
+          "asset_type": "Stock",
+          "quantity": 15.0,
+          "price": 453.28,
+          "market_value": 6799.2
+        },
+        {
+          "description": "BIO-TECHNE CORP COM",
+          "cusip": null,
+          "ticker": "TECH",
+          "asset_type": "Stock",
+          "quantity": 5.82,
+          "price": 72.03,
+          "market_value": 419.21
+        },
+        {
+          "description": "BLACKSTONE INC",
+          "cusip": null,
+          "ticker": "BX",
+          "asset_type": "Stock",
+          "quantity": 6.24,
+          "price": 172.42,
+          "market_value": 1075.9
+        },
+        {
+          "description": "BLACKROCK INC COM",
+          "cusip": null,
+          "ticker": "BLK",
+          "asset_type": "Stock",
+          "quantity": 1.67,
+          "price": 1025.11,
+          "market_value": 1711.93
+        },
+        {
+          "description": "BOOKING HOLDINGS INC COM",
+          "cusip": null,
+          "ticker": "BKNG",
+          "asset_type": "Stock",
+          "quantity": 0.307,
+          "price": 4968.42,
+          "market_value": 1525.3
+        },
+        {
+          "description": "BOSTON SCIENTIFIC CORP",
+          "cusip": null,
+          "ticker": "BSX",
+          "asset_type": "Stock",
+          "quantity": 17.0,
+          "price": 89.32,
+          "market_value": 1518.44
+        },
+        {
+          "description": "BRISTOL-MYERS SQUIBB CO COM",
+          "cusip": null,
+          "ticker": "BMY",
+          "asset_type": "Stock",
+          "quantity": 16.57,
+          "price": 56.56,
+          "market_value": 937.19
+        },
+        {
+          "description": "BROARDRIDGE FINANCIAL SOLUTION INC COM USD0.01",
+          "cusip": null,
+          "ticker": "BR",
+          "asset_type": "Stock",
+          "quantity": 3.02,
+          "price": 226.09,
+          "market_value": 682.79
+        },
+        {
+          "description": "BROADCOM INC COM",
+          "cusip": null,
+          "ticker": "AVGO",
+          "asset_type": "Stock",
+          "quantity": 38.0,
+          "price": 231.84,
+          "market_value": 8809.92
+        },
+        {
+          "description": "THE CIGNA GROUP COM",
+          "cusip": null,
+          "ticker": "CI",
+          "asset_type": "Stock",
+          "quantity": 3.0,
+          "price": 276.14,
+          "market_value": 828.42
+        },
+        {
+          "description": "CME GROUP INC COM",
+          "cusip": null,
+          "ticker": "CME",
+          "asset_type": "Stock",
+          "quantity": 2.593,
+          "price": 232.23,
+          "market_value": 602.17
+        },
+        {
+          "description": "CSX CORP COM USD1",
+          "cusip": null,
+          "ticker": "CSX",
+          "asset_type": "Stock",
+          "quantity": 21.31,
+          "price": 32.27,
+          "market_value": 687.67
+        },
+        {
+          "description": "CADENCE DESIGN SYSTEMS INC COM USD0.01",
+          "cusip": null,
+          "ticker": "CDNS",
+          "asset_type": "Stock",
+          "quantity": 1.69,
+          "price": 300.46,
+          "market_value": 507.77
+        },
+        {
+          "description": "CAPITAL ONE FINANCIAL CORP COM USD0.01",
+          "cusip": null,
+          "ticker": "COF",
+          "asset_type": "Stock",
+          "quantity": 2.39,
+          "price": 178.32,
+          "market_value": 426.18
+        },
+        {
+          "description": "CATERPILLAR INC COM",
+          "cusip": null,
+          "ticker": "CAT",
+          "asset_type": "Stock",
+          "quantity": 4.7,
+          "price": 362.76,
+          "market_value": 1704.97
+        },
+        {
+          "description": "CHARLES RIVER LABORATORIES INTERNATIONAL INC",
+          "cusip": null,
+          "ticker": "CRL",
+          "asset_type": "Stock",
+          "quantity": 1.5,
+          "price": 184.6,
+          "market_value": 276.9
+        },
+        {
+          "description": "CHENIERE ENERGY INC COM USD0.003",
+          "cusip": null,
+          "ticker": "LNG",
+          "asset_type": "Stock",
+          "quantity": 3.0,
+          "price": 214.87,
+          "market_value": 644.61
+        },
+        {
+          "description": "CHEVRON CORP NEW COM",
+          "cusip": null,
+          "ticker": "CVX",
+          "asset_type": "Stock",
+          "quantity": 11.34,
+          "price": 144.84,
+          "market_value": 1642.48
+        },
+        {
+          "description": "CHIPOTLE MEXICAN GRILL INC",
+          "cusip": null,
+          "ticker": "CMG",
+          "asset_type": "Stock",
+          "quantity": 10.5,
+          "price": 60.3,
+          "market_value": 633.15
+        },
+        {
+          "description": "CISCO SYSTEMS INC",
+          "cusip": null,
+          "ticker": "CSCO",
+          "asset_type": "Stock",
+          "quantity": 24.06,
+          "price": 59.2,
+          "market_value": 1424.35
+        },
+        {
+          "description": "CINTAS CORP",
+          "cusip": null,
+          "ticker": "CTAS",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 182.7,
+          "market_value": 730.8
+        },
+        {
+          "description": "CITIGROUP INC",
+          "cusip": null,
+          "ticker": "C",
+          "asset_type": "Stock",
+          "quantity": 26.15,
+          "price": 70.39,
+          "market_value": 1840.69
+        },
+        {
+          "description": "CLOUDFLARE INC CL A COM",
+          "cusip": null,
+          "ticker": "NET",
+          "asset_type": "Stock",
+          "quantity": 5.55,
+          "price": 107.68,
+          "market_value": 597.62
+        },
+        {
+          "description": "COCA-COLA CO",
+          "cusip": null,
+          "ticker": "KO",
+          "asset_type": "Stock",
+          "quantity": 34.1,
+          "price": 62.26,
+          "market_value": 2123.06
+        },
+        {
+          "description": "COINBASE GLOBAL INC COM CL A",
+          "cusip": null,
+          "ticker": "COIN",
+          "asset_type": "Stock",
+          "quantity": 1.44,
+          "price": 248.3,
+          "market_value": 357.55
+        },
+        {
+          "description": "COLGATE-PALMOLIVE CO COM CL",
+          "cusip": null,
+          "ticker": "CL",
+          "asset_type": "Stock",
+          "quantity": 5.91,
+          "price": 90.91,
+          "market_value": 537.27
+        },
+        {
+          "description": "COMCAST CORP",
+          "cusip": null,
+          "ticker": "CMCSA",
+          "asset_type": "Stock",
+          "quantity": 38.818,
+          "price": 37.53,
+          "market_value": 1456.83
+        },
+        {
+          "description": "CONAGRA BRANDS INC",
+          "cusip": null,
+          "ticker": "CAG",
+          "asset_type": "Stock",
+          "quantity": 19.13,
+          "price": 27.75,
+          "market_value": 530.85
+        },
+        {
+          "description": "CONOCOPHILLIPS COM",
+          "cusip": null,
+          "ticker": "COP",
+          "asset_type": "Stock",
+          "quantity": 13.93,
+          "price": 99.17,
+          "market_value": 1381.43
+        },
+        {
+          "description": "CONSTELLATION ENERGY CORP COM",
+          "cusip": null,
+          "ticker": "CEG",
+          "asset_type": "Stock",
+          "quantity": 2.25,
+          "price": 223.71,
+          "market_value": 503.34
+        },
+        {
+          "description": "COSTCO WHOLESALE CORP",
+          "cusip": null,
+          "ticker": "COST",
+          "asset_type": "Stock",
+          "quantity": 4.07,
+          "price": 916.27,
+          "market_value": 3729.21
+        },
+        {
+          "description": "COSTAR GROUP INC",
+          "cusip": null,
+          "ticker": "CSGP",
+          "asset_type": "Stock",
+          "quantity": 7.0,
+          "price": 71.59,
+          "market_value": 501.13
+        },
+        {
+          "description": "CROWDSTRIKE HLDGS INC CL A",
+          "cusip": null,
+          "ticker": "CRWD",
+          "asset_type": "Stock",
+          "quantity": 2.51,
+          "price": 342.16,
+          "market_value": 858.82
+        },
+        {
+          "description": "DR HORTON INC COM STK USD0.01",
+          "cusip": null,
+          "ticker": "DHI",
+          "asset_type": "Stock",
+          "quantity": 11.0,
+          "price": 139.82,
+          "market_value": 1538.02
+        },
+        {
+          "description": "DTE ENERGY CO",
+          "cusip": null,
+          "ticker": "DTE",
+          "asset_type": "Stock",
+          "quantity": 5.02,
+          "price": 120.75,
+          "market_value": 606.16
+        },
+        {
+          "description": "DANAHER CORPORATION COM",
+          "cusip": null,
+          "ticker": "DHR",
+          "asset_type": "Stock",
+          "quantity": 4.11,
+          "price": 229.55,
+          "market_value": 943.45
+        },
+        {
+          "description": "DEERE & CO",
+          "cusip": null,
+          "ticker": "DE",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 423.7,
+          "market_value": 847.4
+        },
+        {
+          "description": "DELL TECHNOLOGIES INC CL C",
+          "cusip": null,
+          "ticker": "DELL",
+          "asset_type": "Stock",
+          "quantity": 2.31,
+          "price": 115.24,
+          "market_value": 266.2
+        },
+        {
+          "description": "DIAMONDBACK ENERGY INC COM USD0.01",
+          "cusip": null,
+          "ticker": "FANG",
+          "asset_type": "Stock",
+          "quantity": 5.0,
+          "price": 163.83,
+          "market_value": 819.15
+        },
+        {
+          "description": "DISNEY WALT CO COM",
+          "cusip": null,
+          "ticker": "DIS",
+          "asset_type": "Stock",
+          "quantity": 13.15,
+          "price": 111.35,
+          "market_value": 1464.25
+        },
+        {
+          "description": "DOMINION ENERGY INC COM",
+          "cusip": null,
+          "ticker": "D",
+          "asset_type": "Stock",
+          "quantity": 9.5,
+          "price": 53.86,
+          "market_value": 511.67
+        },
+        {
+          "description": "DOORDASH INC CL A",
+          "cusip": null,
+          "ticker": "DASH",
+          "asset_type": "Stock",
+          "quantity": 2.45,
+          "price": 167.75,
+          "market_value": 410.98
+        },
+        {
+          "description": "DUKE ENERGY CORP NEW COM NEW",
+          "cusip": "US26441C2044",
+          "ticker": "DUK",
+          "asset_type": "Stock",
+          "quantity": 6.91,
+          "price": 107.74,
+          "market_value": 744.48
+        },
+        {
+          "description": "DUPONT DE NEMOURS INC COM",
+          "cusip": null,
+          "ticker": "DD",
+          "asset_type": "Stock",
+          "quantity": 9.0,
+          "price": 76.25,
+          "market_value": 686.25
+        },
+        {
+          "description": "ECOLAB INC",
+          "cusip": null,
+          "ticker": "ECL",
+          "asset_type": "Stock",
+          "quantity": 2.5,
+          "price": 234.32,
+          "market_value": 585.8
+        },
+        {
+          "description": "ENTEGRIS INC",
+          "cusip": null,
+          "ticker": "ENTG",
+          "asset_type": "Stock",
+          "quantity": 4.652,
+          "price": 99.06,
+          "market_value": 460.82
+        },
+        {
+          "description": "ENTERGY CORP",
+          "cusip": null,
+          "ticker": "ETR",
+          "asset_type": "Stock",
+          "quantity": 10.7,
+          "price": 75.82,
+          "market_value": 811.27
+        },
+        {
+          "description": "EQUIFAX INC COM USD1.25",
+          "cusip": null,
+          "ticker": "EFX",
+          "asset_type": "Stock",
+          "quantity": 1.59,
+          "price": 254.85,
+          "market_value": 405.21
+        },
+        {
+          "description": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+          "cusip": null,
+          "ticker": "EXPD",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 110.77,
+          "market_value": 443.08
+        },
+        {
+          "description": "EXXON MOBIL CORP COM",
+          "cusip": null,
+          "ticker": "XOM",
+          "asset_type": "Stock",
+          "quantity": 38.344,
+          "price": 107.57,
+          "market_value": 4124.66
+        },
+        {
+          "description": "META PLATFORMS INC CLASS A COMMON STOCK",
+          "cusip": null,
+          "ticker": "META",
+          "asset_type": "Stock",
+          "quantity": 19.117,
+          "price": 585.51,
+          "market_value": 11193.19
+        },
+        {
+          "description": "FACTSET RESEARCH SYSTEMS INC",
+          "cusip": null,
+          "ticker": "FDS",
+          "asset_type": "Stock",
+          "quantity": 1.0,
+          "price": 480.28,
+          "market_value": 480.28
+        },
+        {
+          "description": "FEDEX CORP COM USD0.10",
+          "cusip": null,
+          "ticker": "FDX",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 281.33,
+          "market_value": 562.66
+        },
+        {
+          "description": "FIDELITY NATL INFORMATION SERVICES COM USD0.01",
+          "cusip": null,
+          "ticker": "FIS",
+          "asset_type": "Stock",
+          "quantity": 6.86,
+          "price": 80.77,
+          "market_value": 554.08
+        },
+        {
+          "description": "FISERV INC COM STK USD0.01",
+          "cusip": null,
+          "ticker": "FI",
+          "asset_type": "Stock",
+          "quantity": 5.0,
+          "price": 205.42,
+          "market_value": 1027.1
+        },
+        {
+          "description": "FORTINET INC COM USD0.001",
+          "cusip": null,
+          "ticker": "FTNT",
+          "asset_type": "Stock",
+          "quantity": 3.77,
+          "price": 94.48,
+          "market_value": 356.18
+        },
+        {
+          "description": "FREEPORT-MCMORAN INC COM USD0.10",
+          "cusip": null,
+          "ticker": "FCX",
+          "asset_type": "Stock",
+          "quantity": 18.0,
+          "price": 38.08,
+          "market_value": 685.44
+        },
+        {
+          "description": "GE HEALTHCARE TECHNOLOGIES INC COMMON STOCK",
+          "cusip": null,
+          "ticker": "GEHC",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 78.18,
+          "market_value": 312.72
+        },
+        {
+          "description": "ARTHUR J. GALLAGHER & CO.",
+          "cusip": null,
+          "ticker": "AJG",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 283.85,
+          "market_value": 1135.4
+        },
+        {
+          "description": "GE VERNOVA INC COM",
+          "cusip": null,
+          "ticker": "GEV",
+          "asset_type": "Stock",
+          "quantity": 1.87,
+          "price": 328.93,
+          "market_value": 615.09
+        },
+        {
+          "description": "GENERAL DYNAMICS CORP COM",
+          "cusip": null,
+          "ticker": "GD",
+          "asset_type": "Stock",
+          "quantity": 2.23,
+          "price": 263.49,
+          "market_value": 587.58
+        },
+        {
+          "description": "GENERAL MOTORS CO COM",
+          "cusip": null,
+          "ticker": "GM",
+          "asset_type": "Stock",
+          "quantity": 15.16,
+          "price": 53.27,
+          "market_value": 807.57
+        },
+        {
+          "description": "GILEAD SCIENCES INC COM USD0.001",
+          "cusip": null,
+          "ticker": "GILD",
+          "asset_type": "Stock",
+          "quantity": 8.0,
+          "price": 92.37,
+          "market_value": 738.96
+        },
+        {
+          "description": "GOLDMAN SACHS GROUP INC COM USD0.01",
+          "cusip": null,
+          "ticker": "GS",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 572.62,
+          "market_value": 2290.48
+        },
+        {
+          "description": "HCA HEALTHCARE INC COM",
+          "cusip": null,
+          "ticker": "HCA",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 300.15,
+          "market_value": 600.3
+        },
+        {
+          "description": "HP INC COM",
+          "cusip": null,
+          "ticker": "HPQ",
+          "asset_type": "Stock",
+          "quantity": 14.0,
+          "price": 32.63,
+          "market_value": 456.82
+        },
+        {
+          "description": "HALLIBURTON CO COM USD2.60",
+          "cusip": null,
+          "ticker": "HAL",
+          "asset_type": "Stock",
+          "quantity": 21.83,
+          "price": 27.19,
+          "market_value": 593.55
+        },
+        {
+          "description": "HARTFORD FINANCIAL SERVICES GRP INC COM USD0.01",
+          "cusip": null,
+          "ticker": "HIG",
+          "asset_type": "Stock",
+          "quantity": 6.32,
+          "price": 109.4,
+          "market_value": 691.4
+        },
+        {
+          "description": "HOME DEPOT INC",
+          "cusip": null,
+          "ticker": "HD",
+          "asset_type": "Stock",
+          "quantity": 7.61,
+          "price": 388.99,
+          "market_value": 2960.21
+        },
+        {
+          "description": "HONEYWELL INTERNATIONAL INC COM USD1",
+          "cusip": null,
+          "ticker": "HON",
+          "asset_type": "Stock",
+          "quantity": 6.75,
+          "price": 225.89,
+          "market_value": 1524.75
+        },
+        {
+          "description": "HUBSPOT INC",
+          "cusip": null,
+          "ticker": "HUBS",
+          "asset_type": "Stock",
+          "quantity": 1.365,
+          "price": 696.77,
+          "market_value": 951.09
+        },
+        {
+          "description": "HUMANA INC",
+          "cusip": null,
+          "ticker": "HUM",
+          "asset_type": "Stock",
+          "quantity": 1.02,
+          "price": 253.71,
+          "market_value": 258.78
+        },
+        {
+          "description": "IDEXX LABORATORIES INC COM USD0.10",
+          "cusip": null,
+          "ticker": "IDXX",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 413.44,
+          "market_value": 826.88
+        },
+        {
+          "description": "ILLINOIS TOOL WORKS INC COM",
+          "cusip": null,
+          "ticker": "ITW",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 253.56,
+          "market_value": 1014.24
+        },
+        {
+          "description": "ILLUMINA INC COM USD0.01",
+          "cusip": null,
+          "ticker": "ILMN",
+          "asset_type": "Stock",
+          "quantity": 2.75,
+          "price": 133.63,
+          "market_value": 367.48
+        },
+        {
+          "description": "INGERSOLL RAND INC COM",
+          "cusip": null,
+          "ticker": "IR",
+          "asset_type": "Stock",
+          "quantity": 12.0,
+          "price": 90.46,
+          "market_value": 1085.52
+        },
+        {
+          "description": "INTEL CORP COM USD0.001",
+          "cusip": null,
+          "ticker": "INTC",
+          "asset_type": "Stock",
+          "quantity": 22.8,
+          "price": 20.05,
+          "market_value": 457.14
+        },
+        {
+          "description": "INTERCONTINENTAL EXCHANGE INC COM USD0.01",
+          "cusip": null,
+          "ticker": "ICE",
+          "asset_type": "Stock",
+          "quantity": 6.0,
+          "price": 149.01,
+          "market_value": 894.06
+        },
+        {
+          "description": "INTERNATIONAL BUS MACH CORP COM USD0.20",
+          "cusip": null,
+          "ticker": "IBM",
+          "asset_type": "Stock",
+          "quantity": 7.47,
+          "price": 219.83,
+          "market_value": 1642.13
+        },
+        {
+          "description": "INTUITIVE SURGICAL INC",
+          "cusip": null,
+          "ticker": "ISRG",
+          "asset_type": "Stock",
+          "quantity": 5.0,
+          "price": 521.96,
+          "market_value": 2609.8
+        },
+        {
+          "description": "INTUIT INC",
+          "cusip": null,
+          "ticker": "INTU",
+          "asset_type": "Stock",
+          "quantity": 1.926,
+          "price": 628.5,
+          "market_value": 1210.49
+        },
+        {
+          "description": "IQVIA HLDGS INC COM",
+          "cusip": null,
+          "ticker": "IQV",
+          "asset_type": "Stock",
+          "quantity": 2.72,
+          "price": 196.51,
+          "market_value": 534.5
+        },
+        {
+          "description": "JPMORGAN CHASE &CO. COM",
+          "cusip": null,
+          "ticker": "JPM",
+          "asset_type": "Stock",
+          "quantity": 26.46,
+          "price": 239.71,
+          "market_value": 6342.72
+        },
+        {
+          "description": "JOHNSON & JOHNSON COM",
+          "cusip": null,
+          "ticker": "JNJ",
+          "asset_type": "Stock",
+          "quantity": 10.09,
+          "price": 144.62,
+          "market_value": 1459.21
+        },
+        {
+          "description": "KLA CORP COM NEW",
+          "cusip": null,
+          "ticker": "KLAC",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 630.12,
+          "market_value": 1260.24
+        },
+        {
+          "description": "KKR &CO INC COM",
+          "cusip": null,
+          "ticker": "KKR",
+          "asset_type": "Stock",
+          "quantity": 4.55,
+          "price": 147.91,
+          "market_value": 672.99
+        },
+        {
+          "description": "KELLANOVA COM",
+          "cusip": null,
+          "ticker": "K",
+          "asset_type": "Stock",
+          "quantity": 10.62,
+          "price": 80.97,
+          "market_value": 859.9
+        },
+        {
+          "description": "KENVUE INC COM",
+          "cusip": null,
+          "ticker": "KVUE",
+          "asset_type": "Stock",
+          "quantity": 27.13,
+          "price": 21.35,
+          "market_value": 579.22
+        },
+        {
+          "description": "KIMBERLY-CLARK CORP COM",
+          "cusip": null,
+          "ticker": "KMB",
+          "asset_type": "Stock",
+          "quantity": 6.11,
+          "price": 131.04,
+          "market_value": 800.65
+        },
+        {
+          "description": "L3HARRIS TECHNOLOGIES INC COM",
+          "cusip": null,
+          "ticker": "LHX",
+          "asset_type": "Stock",
+          "quantity": 2.53,
+          "price": 210.28,
+          "market_value": 532.0
+        },
+        {
+          "description": "LAM RESEARCH CORP COM NEW",
+          "cusip": null,
+          "ticker": "LRCX",
+          "asset_type": "Stock",
+          "quantity": 30.0,
+          "price": 72.23,
+          "market_value": 2166.9
+        },
+        {
+          "description": "ELI LILLY &CO COM",
+          "cusip": null,
+          "ticker": "LLY",
+          "asset_type": "Stock",
+          "quantity": 7.0,
+          "price": 772.0,
+          "market_value": 5404.0
+        },
+        {
+          "description": "LOCKHEED MARTIN CORP COM USD1.00",
+          "cusip": null,
+          "ticker": "LMT",
+          "asset_type": "Stock",
+          "quantity": 2.0,
+          "price": 485.94,
+          "market_value": 971.88
+        },
+        {
+          "description": "LOWES COMPANIES INC COM USD0.50",
+          "cusip": null,
+          "ticker": "LOW",
+          "asset_type": "Stock",
+          "quantity": 3.52,
+          "price": 246.8,
+          "market_value": 868.73
+        },
+        {
+          "description": "LULULEMON ATHLETICA INC COM USD0.005",
+          "cusip": null,
+          "ticker": "LULU",
+          "asset_type": "Stock",
+          "quantity": 0.85,
+          "price": 382.41,
+          "market_value": 325.04
+        },
+        {
+          "description": "MSCI INC",
+          "cusip": null,
+          "ticker": "MSCI",
+          "asset_type": "Stock",
+          "quantity": 3.0,
+          "price": 600.01,
+          "market_value": 1800.03
+        },
+        {
+          "description": "MARATHON PETROLEUM CORP COM USD0.01",
+          "cusip": null,
+          "ticker": "MPC",
+          "asset_type": "Stock",
+          "quantity": 7.0,
+          "price": 139.5,
+          "market_value": 976.5
+        },
+        {
+          "description": "VERIZON COMMUNICATIONS INC",
+          "cusip": null,
+          "ticker": "VZ",
+          "asset_type": "Stock",
+          "quantity": 33.38,
+          "price": 39.99,
+          "market_value": 1334.86
+        },
+        {
+          "description": "VERTEX PHARMACEUTICALS INC",
+          "cusip": null,
+          "ticker": "VRTX",
+          "asset_type": "Stock",
+          "quantity": 2.09,
+          "price": 402.7,
+          "market_value": 841.64
+        },
+        {
+          "description": "VERTIV HOLDINGS CO COM CL A",
+          "cusip": null,
+          "ticker": "VRT",
+          "asset_type": "Stock",
+          "quantity": 2.04,
+          "price": 113.61,
+          "market_value": 231.76
+        },
+        {
+          "description": "VISA INC",
+          "cusip": null,
+          "ticker": "V",
+          "asset_type": "Stock",
+          "quantity": 13.591,
+          "price": 316.04,
+          "market_value": 4295.29
+        },
+        {
+          "description": "VISTRA CORP COM",
+          "cusip": null,
+          "ticker": "VST",
+          "asset_type": "Stock",
+          "quantity": 2.28,
+          "price": 137.87,
+          "market_value": 314.34
+        },
+        {
+          "description": "WALMART INC COM",
+          "cusip": null,
+          "ticker": "WMT",
+          "asset_type": "Stock",
+          "quantity": 37.05,
+          "price": 90.35,
+          "market_value": 3347.46
+        },
+        {
+          "description": "WASTE MANAGEMENT INC",
+          "cusip": null,
+          "ticker": "WM",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 201.79,
+          "market_value": 807.16
+        },
+        {
+          "description": "WATERS CORP",
+          "cusip": null,
+          "ticker": "WAT",
+          "asset_type": "Stock",
+          "quantity": 1.69,
+          "price": 370.98,
+          "market_value": 626.95
+        },
+        {
+          "description": "WELLS FARGO CO NEW COM",
+          "cusip": null,
+          "ticker": "WFC",
+          "asset_type": "Stock",
+          "quantity": 35.842,
+          "price": 70.24,
+          "market_value": 2517.54
+        },
+        {
+          "description": "WORKDAY INC COM USD0.001 CL A",
+          "cusip": null,
+          "ticker": "WDAY",
+          "asset_type": "Stock",
+          "quantity": 4.0,
+          "price": 258.03,
+          "market_value": 1032.12
+        },
+        {
+          "description": "YUM BRANDS INC",
+          "cusip": null,
+          "ticker": "YUM",
+          "asset_type": "Stock",
+          "quantity": 3.0,
+          "price": 134.16,
+          "market_value": 402.48
+        },
+        {
+          "description": "ZOETIS INC",
+          "cusip": null,
+          "ticker": "ZTS",
+          "asset_type": "Stock",
+          "quantity": 2.719,
+          "price": 162.93,
+          "market_value": 443.0
+        },
+        {
+          "description": "AMERICAN TOWER CORP NEW COM",
+          "cusip": null,
+          "ticker": "AMT",
+          "asset_type": "Other",
+          "quantity": 5.24,
+          "price": 183.41,
+          "market_value": 961.06
+        },
+        {
+          "description": "CROWN CASTLE INC COM",
+          "cusip": null,
+          "ticker": "CCI",
+          "asset_type": "Other",
+          "quantity": 4.58,
+          "price": 90.76,
+          "market_value": 415.68
+        },
+        {
+          "description": "DIGITAL REALTY TRUST INC",
+          "cusip": null,
+          "ticker": "DLR",
+          "asset_type": "Other",
+          "quantity": 4.84,
+          "price": 177.33,
+          "market_value": 858.27
+        },
+        {
+          "description": "EQUINIX INC COM",
+          "cusip": null,
+          "ticker": "EQIX",
+          "asset_type": "Other",
+          "quantity": 1.0,
+          "price": 942.89,
+          "market_value": 942.89
+        },
+        {
+          "description": "EXTRA SPACE STORAGE INC",
+          "cusip": null,
+          "ticker": "EXR",
+          "asset_type": "Other",
+          "quantity": 2.7,
+          "price": 149.6,
+          "market_value": 403.92
+        },
+        {
+          "description": "PROLOGIS INC.",
+          "cusip": null,
+          "ticker": "PLD",
+          "asset_type": "Other",
+          "quantity": 9.0,
+          "price": 105.7,
+          "market_value": 951.3
+        },
+        {
+          "description": "REALTY INCOME CORP COM",
+          "cusip": null,
+          "ticker": "O",
+          "asset_type": "Other",
+          "quantity": 13.25,
+          "price": 53.41,
+          "market_value": null
+        },
+        {
+          "description": "SIMON PROPERTY GROUP INC",
+          "cusip": null,
+          "ticker": "SPG",
+          "asset_type": "Other",
+          "quantity": 6.0,
+          "price": 172.21,
+          "market_value": null
+        },
+        {
+          "description": "VICI PPTYS INC COM",
+          "cusip": null,
+          "ticker": "VICI",
+          "asset_type": "Other",
+          "quantity": 18.0,
+          "price": 29.21,
+          "market_value": null
+        },
+        {
+          "description": "WP CAREY INC COM",
+          "cusip": null,
+          "ticker": "WPC",
+          "asset_type": "Other",
+          "quantity": 8.35,
+          "price": 54.48,
+          "market_value": null
+        },
+        {
+          "description": "WELLTOWER INC COM",
+          "cusip": null,
+          "ticker": "WELL",
+          "asset_type": "Other",
+          "quantity": 4.38,
+          "price": 126.03,
+          "market_value": null
+        }
+      ],
+      "account_total_value": 418653.2
+    }
+  ],
+  "statement_total_value": 418653.2,
+  "audit": {
+    "section_presence": {
+      "status": "complete",
+      "missing_sections": []
+    },
+    "account_header_parsing": {
+      "status": "complete",
+      "accounts_missing_fields": []
+    },
+    "holdings_to_account": [
+      {
+        "account_number": "Y98-981405",
+        "holdings_sum": 418653.2,
+        "account_total_value": 418653.2,
+        "difference": 0,
+        "status": "match"
+      }
+    ],
+    "accounts_to_statement": {
+      "total_of_account_values": 418653.2,
+      "statement_total_value": 418653.2,
+      "difference": 0,
+      "status": "match"
+    },
+    "quantity_value_logic": [],
+    "zero_negative_guard": {
+      "status": "pass",
+      "problem_rows": []
+    },
+    "rounding_coherence": {
+      "status": "pass",
+      "accounts_with_issues": []
+    },
+    "duplicate_security_id": {
+      "status": "pass",
+      "duplicates_found": []
+    },
+    "missing_identifier": {
+      "status": "fail",
+      "holdings_without_id": [
+        "Multiple stocks missing CUSIP or ticker (e.g. AMCOR PLC ORD USD0.01, AON PLC SHS CL A COM, ACCENTURE PLC, etc.)"
+      ]
+    },
+    "missing_value_fields": {
+      "status": "fail",
+      "rows_missing_values": [
+        "AMPHENOL CORP CLASS A COM USD0.001 (APH) missing some fields",
+        "ABIOMED INC SHS missing price and market value"
+      ]
+    },
+    "currency_symbol_coherence": {
+      "status": "pass",
+      "mixed_currencies_detected": []
+    },
+    "date_range_sanity": {
+      "status": "pass",
+      "future_dates_found": []
+    },
+    "header_footer_total_match": {
+      "footer_total_value": 418653.2,
+      "statement_total_value": 418653.2,
+      "difference": 0,
+      "status": "match"
+    },
+    "overall_status": "parsed_with_warnings",
+    "requires_human_review": true
+  }
+}

@@ -1,0 +1,72 @@
+name: "Financial Statement Processing"
+description: "Automated processing of brokerage statements and financial documents"
+version: "1.0"
+
+triggers:
+  - event: "document.processed"
+    conditions:
+      - "content_category = 'financial'"
+      - "content LIKE '%statement%' OR content LIKE '%brokerage%' OR content LIKE '%investment%'"
+
+steps:
+  - name: "ai_summary"
+    description: "Generate AI summary of financial statement"
+    tool: "ai_summarize"
+    params:
+      content: "${trigger_data.message_content_text}"
+      max_length: 300
+      model: "claude-3-haiku"
+    
+  - name: "extract_financial_entities"
+    description: "Extract financial-specific entities"
+    tool: "ai_extract_entities"
+    params:
+      content: "${trigger_data.message_content_text}"
+      types: ["dates", "amounts", "account_numbers", "transactions", "securities"]
+    
+  - name: "classify_statement_type"
+    description: "Classify type of financial statement"
+    tool: "ai_classify_urgency"
+    params:
+      content: "${trigger_data.message_content_text}"
+      keywords: ["quarterly", "annual", "monthly", "tax", "1099"]
+    
+  - name: "link_financial_institution"
+    description: "Link to appropriate financial institution company"
+    tool: "crm_update_communication"
+    params:
+      communication_id: "${trigger_data.id}"
+      updates:
+        sender_company_id: "${trigger_data.sender_company_id}"
+        ai_generated_summary: "${execution_results.ai_summary.summary}"
+        ai_extracted_entities: "${execution_results.extract_financial_entities.entities}"
+    
+  - name: "create_review_task"
+    description: "Create task for financial statement review"
+    tool: "crm_create_task"
+    params:
+      title: "Review Financial Statement - ${trigger_data.sender_display_name}"
+      description: "Review financial statement: ${execution_results.ai_summary.summary}"
+      company_id: "${trigger_data.sender_company_id}"
+      due_date: "2025-07-01"  # Tax season deadline
+      priority: "normal"
+    
+  - name: "categorize_transactions"
+    description: "Create transaction records for significant items"
+    tool: "crm_create_transaction"
+    conditions:
+      - "execution_results.extract_financial_entities.entities.amounts.length > 0"
+    params:
+      account_id: 1  # Default investment account
+      amount: "${execution_results.extract_financial_entities.entities.amounts[0]}"
+      description: "Financial Statement - ${trigger_data.sender_display_name}"
+      category: "Investment"
+      transaction_type: "income"
+
+metadata:
+  author: "Andrew Lark"
+  created_date: "2025-06-09"
+  category: "financial_processing"
+  tags: ["brokerage", "investments", "statements", "tax_prep"]
+  estimated_runtime: "40 seconds"
+  dependencies: ["crm-db", "ai_processing"]

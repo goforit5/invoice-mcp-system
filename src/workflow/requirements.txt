@@ -1,0 +1,5 @@
+fastmcp
+pydantic
+pyyaml
+requests
+sqlite3

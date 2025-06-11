@@ -1,0 +1,104 @@
+{
+  "invoice_metadata": {
+    "invoice_number": "236823",
+    "invoice_type": "Original",
+    "source_file_name": "Clipboard_236823VP.pdf",
+    "issue_date": "01/22/2024",
+    "due_date": "02/21/2024",
+    "period_start_date": "01/14/2024",
+    "period_end_date": "01/20/2024",
+    "balance_due": "$1,232.60",
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": "Clipboard Health (Twomagnets Inc.)",
+    "address": "P.O. Box 103125",
+    "city": "Pasadena",
+    "state": "CA",
+    "zip": "91189-3125",
+    "phone": "408-837-0116",
+    "email": null,
+    "website": null,
+    "contact_name": null,
+    "remittance_address": "TwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125"
+  },
+  "customer": {
+    "name": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "account_number": "0015w000029XehwAAC",
+    "facility_id": null,
+    "contact_name": null
+  },
+  "line_items": [
+    {
+      "date": "01/14/2024",
+      "description": "CNA Rosal\u00eda Beltran Caudel, AM",
+      "quantity": "7.9",
+      "unit": null,
+      "rate": "$34.00",
+      "amount": "$268.60",
+      "notes": "Charge Breakdown: Base Rate: 27; Time Differential: 7 (Sunday, AM)"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "CNA Ryan Bartolome-ohano, AM, (Late Cancel)",
+      "quantity": "2",
+      "unit": null,
+      "rate": "$34.00",
+      "amount": "$68.00",
+      "notes": "Charge Breakdown: Base Rate: 27; Hazard Differential: 0; Time Differential: 7 (Sunday, AM)\nInvoice Item Note: Cancellation charge for 2 hours. Lerma Gonzales canceled this shift on Sat Jan 3 2024 16:00"
+    },
+    {
+      "date": "01/14/2024",
+      "description": "LVN / LPN Celina Salter, NOC",
+      "quantity": "8",
+      "unit": null,
+      "rate": "$57.00",
+      "amount": "$456.00",
+      "notes": "Charge Breakdown: Base Rate: 50; Time Differential: 7 (Monday, NOC)"
+    },
+    {
+      "date": "01/15/2024",
+      "description": "LVN / LPN Hinehina Pita, NOC",
+      "quantity": "8",
+      "unit": null,
+      "rate": "$55.00",
+      "amount": "$440.00",
+      "notes": "Charge Breakdown: Base Rate: 50; Time Differential: 5 (Tuesday, NOC)"
+    }
+  ],
+  "totals": {
+    "subtotal": null,
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": "$1,232.60"
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": "322271627",
+      "account_number": "691309701",
+      "account_name": "TWOMAGNETS, INC."
+    },
+    "wire": {
+      "routing_number": "021000021",
+      "swift_code": "CHASUS33",
+      "account_number": "691309701",
+      "account_name": "TWOMAGNETS, INC.",
+      "bank_address": "JPMorgan Chase New York, NY 10017"
+    },
+    "credit_card": {
+      "instructions": "In your Invoiced.com portal link > my account > pay now > select the invoices you will pay > click next > note payment amount > select credit card as the payment method > enter card information and click pay."
+    },
+    "postal": {
+      "regular": null,
+      "courier": null
+    }
+  },
+  "terms_and_conditions": null,
+  "dispute_instructions": "If you see any issues with the items contained in this invoice, please raise a dispute within the dispute terms contained in your contract.",
+  "miscellaneous_fields": {}
+}

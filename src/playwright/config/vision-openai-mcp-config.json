@@ -1,0 +1,23 @@
+{
+  "server": {
+    "port": 8932,
+    "host": "localhost"
+  },
+  "capabilities": [
+    "resources",
+    "tools",
+    "prompts"
+  ],
+  "model_settings": {
+    "vision_model": "gpt-4.1-nano",
+    "max_tokens": 1000,
+    "image_detail": "auto"
+  },
+  "document_settings": {
+    "max_pages": 10,
+    "pdf_resolution": 300,
+    "enable_cache": true,
+    "cache_expiry": 3600
+  },
+  "outputDir": "/Users/andrew/Projects/claudecode1/output/vision-processed"
+}

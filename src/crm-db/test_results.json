@@ -1,0 +1,117 @@
+{
+  "create_company": {
+    "passed": true,
+    "details": "Created company ID: 4",
+    "timestamp": "2025-06-09T17:13:26.817867"
+  },
+  "search_companies": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.818189"
+  },
+  "update_company": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.818818"
+  },
+  "get_company_details": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.819156"
+  },
+  "create_contact": {
+    "passed": true,
+    "details": "Created contact ID: 4",
+    "timestamp": "2025-06-09T17:13:26.819878"
+  },
+  "get_contact_details": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.820247"
+  },
+  "update_contact": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.821307"
+  },
+  "search_contacts": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.821647"
+  },
+  "create_account": {
+    "passed": true,
+    "details": "Created account ID: 4",
+    "timestamp": "2025-06-09T17:13:26.822297"
+  },
+  "search_accounts": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.822676"
+  },
+  "create_transaction": {
+    "passed": true,
+    "details": "Created transaction ID: 1",
+    "timestamp": "2025-06-09T17:13:26.825114"
+  },
+  "search_transactions": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.825428"
+  },
+  "create_communication": {
+    "passed": true,
+    "details": "Created communication ID: 2",
+    "timestamp": "2025-06-09T17:13:26.826108"
+  },
+  "search_communications": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.826510"
+  },
+  "create_task": {
+    "passed": true,
+    "details": "Created task ID: 1",
+    "timestamp": "2025-06-09T17:13:26.827160"
+  },
+  "search_tasks": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.827601"
+  },
+  "update_task": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.828394"
+  },
+  "complete_task": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.829027"
+  },
+  "delete_contact": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.830203"
+  },
+  "soft_delete_respected_in_search": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.830507"
+  },
+  "invoice_workflow_timeline": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.831671"
+  },
+  "invoice_workflow_company_view": {
+    "passed": true,
+    "details": null,
+    "timestamp": "2025-06-09T17:13:26.832122"
+  },
+  "complete_invoice_workflow": {
+    "passed": true,
+    "details": "All workflow components integrated successfully",
+    "timestamp": "2025-06-09T17:13:26.832126"
+  }
+}

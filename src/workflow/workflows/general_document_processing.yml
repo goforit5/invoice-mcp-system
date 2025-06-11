@@ -1,0 +1,59 @@
+name: "General Document Processing"
+description: "Fallback workflow for unclassified documents"
+version: "1.0"
+
+triggers:
+  - event: "document.processed"
+    conditions:
+      - "content_category = 'general'"
+
+steps:
+  - name: "ai_summary"
+    description: "Generate AI summary of document"
+    tool: "ai_summarize"
+    params:
+      content: "${trigger_data.message_content_text}"
+      max_length: 200
+    
+  - name: "extract_general_entities"
+    description: "Extract general entities from document"
+    tool: "ai_extract_entities"
+    params:
+      content: "${trigger_data.message_content_text}"
+      types: ["dates", "amounts", "names", "organizations"]
+    
+  - name: "classify_document_type"
+    description: "Attempt to classify document type"
+    tool: "ai_classify_urgency"
+    params:
+      content: "${trigger_data.message_content_text}"
+      keywords: ["urgent", "important", "deadline", "action required"]
+    
+  - name: "update_communication"
+    description: "Update communication with basic processing"
+    tool: "crm_update_communication"
+    params:
+      communication_id: "${trigger_data.id}"
+      updates:
+        ai_generated_summary: "${execution_results.ai_summary.summary}"
+        ai_extracted_entities: "${execution_results.extract_general_entities.entities}"
+        urgency_level: "${execution_results.classify_document_type.urgency_level}"
+    
+  - name: "create_review_task"
+    description: "Create task for manual document review"
+    tool: "crm_create_task"
+    conditions:
+      - "urgency_level IN ('high', 'urgent')"
+    params:
+      title: "Review Document - ${trigger_data.subject_line}"
+      description: "Manual review needed: ${execution_results.ai_summary.summary}"
+      due_date: "2025-06-16"  # One week from now
+      priority: "${execution_results.classify_document_type.urgency_level}"
+
+metadata:
+  author: "Andrew Lark"
+  created_date: "2025-06-09"
+  category: "general_processing"
+  tags: ["general", "fallback", "manual_review"]
+  estimated_runtime: "25 seconds"
+  dependencies: ["crm-db", "ai_processing"]

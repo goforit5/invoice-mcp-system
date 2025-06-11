@@ -1,0 +1,29 @@
+{
+  "name": "claude-mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP servers for Claude desktop",
+  "type": "module",
+  "scripts": {
+    "mcp-fetch": "node src/fetch/server.js",
+    "mcp-fetch-old": ".venv/bin/python -m mcp_server_fetch",
+    "mcp-playwright": "npx @playwright/mcp@0.0.22 --config src/playwright/config/playwright-mcp-config.json",
+    "mcp-vision": "python src/vision/server.py"
+  },
+  "keywords": [
+    "claude",
+    "mcp",
+    "server",
+    "fetch",
+    "playwright",
+    "vision",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1",
+    "@playwright/mcp": "0.0.22",
+    "playwright": "^1.52.0",
+    "zod": "^3.24.4"
+  }
+}

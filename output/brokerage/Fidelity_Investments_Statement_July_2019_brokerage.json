@@ -1,0 +1,172 @@
+{
+  "statement_metadata": {
+    "statement_provider": "Fidelity Investments",
+    "statement_date": "2019-07-31",
+    "statement_period_start": "2019-07-01",
+    "statement_period_end": "2019-07-31",
+    "statement_type": "Investment Report",
+    "source_file_name": "Fidelity_Investments_Statement_July_2019.pdf"
+  },
+  "customer": {
+    "name": "THE ROAD INFORMATION PROGRAM",
+    "address": "3000 CONNECTICUT AVE NW STE 208 WASHINGTON DC 20008-2529",
+    "account_number": "676-726382",
+    "client_id": "G19825195",
+    "advisor_name": "MICHAEL JACOBS"
+  },
+  "accounts": [
+    {
+      "account_name": "THE ROAD INFORMATION PROGRAM - CORPORATION",
+      "account_number": "676-726382",
+      "account_type": null,
+      "holdings": [
+        {
+          "description": "FIDELITY GOVERNMENT CASH RESERVES",
+          "cusip": "316067107",
+          "quantity": 12693.67,
+          "price": 1,
+          "market_value": 12693.67,
+          "asset_type": "Cash",
+          "ticker": "FDRXX"
+        },
+        {
+          "description": "INVESCO OPPENHEIMER DEVELOPING MRKTS R6",
+          "cusip": null,
+          "quantity": 601.835,
+          "price": 42.84,
+          "market_value": 25782.61,
+          "asset_type": "Mutual Fund",
+          "ticker": "ODVIX"
+        },
+        {
+          "description": "BUFFALO DISCOVERY FUND",
+          "cusip": null,
+          "quantity": 603.379,
+          "price": 27.43,
+          "market_value": 16550.68,
+          "asset_type": "Mutual Fund",
+          "ticker": "BUFTX"
+        },
+        {
+          "description": "LORD ABBETT CONVERTIBLE CL I",
+          "cusip": "543916712",
+          "quantity": 5776.737,
+          "price": 13.97,
+          "market_value": 80701.01,
+          "asset_type": "Mutual Fund",
+          "ticker": "LCFYX"
+        },
+        {
+          "description": "MFS VALUE FUND CLASS I",
+          "cusip": null,
+          "quantity": 1352.605,
+          "price": 42.37,
+          "market_value": 57309.87,
+          "asset_type": "Mutual Fund",
+          "ticker": "MEIIX"
+        },
+        {
+          "description": "PLUMB BALANCED",
+          "cusip": null,
+          "quantity": 1604.514,
+          "price": 32.8,
+          "market_value": 52628.05,
+          "asset_type": "Mutual Fund",
+          "ticker": "PLBBX"
+        },
+        {
+          "description": "INVESCO OPPENHEIMER SENIOR FLOAT RATE R6",
+          "cusip": "00141G856",
+          "quantity": 7590.063,
+          "price": 7.75,
+          "market_value": 58822.98,
+          "asset_type": "Mutual Fund",
+          "ticker": "OOSIX"
+        },
+        {
+          "description": "INVESCO OPPENHEIMER INTERNATIONAL BOND Y",
+          "cusip": "00143K657",
+          "quantity": 8353.535,
+          "price": 5.59,
+          "market_value": 46696.26,
+          "asset_type": "Mutual Fund",
+          "ticker": "OIBYX"
+        },
+        {
+          "description": "LOOMIS SAYLES INVST GRADE BOND CL A",
+          "cusip": "543487144",
+          "quantity": 15264.703,
+          "price": 11.26,
+          "market_value": 171880.55,
+          "asset_type": "Mutual Fund",
+          "ticker": "LIGRX"
+        },
+        {
+          "description": "LORD ABBETT SHORT DURATION INCOME CL I",
+          "cusip": "543916688",
+          "quantity": 17605.588,
+          "price": 4.21,
+          "market_value": 74119.52,
+          "asset_type": "Mutual Fund",
+          "ticker": "LLDYX"
+        },
+        {
+          "description": "PRINCIPAL HIGH YIELD CL A",
+          "cusip": "74254V661",
+          "quantity": 3605.063,
+          "price": 7.22,
+          "market_value": 26028.55,
+          "asset_type": "Mutual Fund",
+          "ticker": "CPHYX"
+        },
+        {
+          "description": "FIRST TR EXCHANGE TRADED FD DOW JONES INTERNET INDEX FD",
+          "cusip": null,
+          "quantity": 217,
+          "price": 146.12,
+          "market_value": 31708.04,
+          "asset_type": "Equity ETP",
+          "ticker": "FDN"
+        },
+        {
+          "description": "INVESCO QQQ TR UNIT SER 1",
+          "cusip": "46090E103",
+          "quantity": 189,
+          "price": 191.1,
+          "market_value": 36117.9,
+          "asset_type": "Equity ETP",
+          "ticker": "QQQ"
+        },
+        {
+          "description": "INVESCO EXCHANGE TRADED FD TR S&P500 EQL WGT",
+          "cusip": null,
+          "quantity": 700,
+          "price": 108.71,
+          "market_value": 76097,
+          "asset_type": "Equity ETP",
+          "ticker": "RSP"
+        },
+        {
+          "description": "ISHARES S&P MID CAP 400 GROWTH ETF",
+          "cusip": null,
+          "quantity": 200,
+          "price": 228.6,
+          "market_value": 45720,
+          "asset_type": "Equity ETP",
+          "ticker": "IJK"
+        },
+        {
+          "description": "ISHARES INC CORE MSCI EMERGING MKTS ETF",
+          "cusip": null,
+          "quantity": 351,
+          "price": 50.18,
+          "market_value": 17613.18,
+          "asset_type": "Equity ETP",
+          "ticker": "IEMG"
+        }
+      ],
+      "account_total_value": 830469.87
+    }
+  ],
+  "statement_total_value": 830469.87
+}

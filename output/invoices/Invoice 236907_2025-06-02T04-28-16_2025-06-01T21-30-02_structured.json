@@ -1,0 +1,312 @@
+{
+  "invoice_metadata": {
+    "invoice_number": "236907",
+    "invoice_type": "Original",
+    "source_file_name": "Invoice 236907_2025-06-02T04-28-16.pdf",
+    "issue_date": "01/22/2024",
+    "due_date": "02/21/2024",
+    "period_start_date": "01/14/2024",
+    "period_end_date": "01/20/2024",
+    "balance_due": 2807.89,
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": "Clipboard Health (Twomagnets Inc.)",
+    "address": "P.O. Box 103125",
+    "city": "Pasadena",
+    "state": "CA",
+    "zip": "91189-3125",
+    "phone": "408-837-0116",
+    "email": null,
+    "website": null,
+    "contact_name": null,
+    "remittance_address": "TwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125"
+  },
+  "customer": {
+    "name": "White Blossom Care Center",
+    "address": "1990 Fruitdale Avenue",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": "95128",
+    "account_number": "0015w00002C4xkjAAB",
+    "facility_id": null,
+    "contact_name": null
+  },
+  "line_items": [
+    {
+      "date": "01/14/2024",
+      "description": "CNA Deanna Bush, AM, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 37.0,
+      "amount": 74.0,
+      "notes": "Cancelation charge for 2 hours. Timothy Temoin canceled this shift on Sat Jan 13 2024 23:35"
+    },
+    {
+      "date": "01/15/2024",
+      "description": "CNA Caitlyn Pauritsch, NOC",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 35.0,
+      "amount": 262.5,
+      "notes": null
+    },
+    {
+      "date": "01/15/2024",
+      "description": "CNA Adriana Tavarez, NOC",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 35.0,
+      "amount": 262.5,
+      "notes": null
+    },
+    {
+      "date": "01/17/2024",
+      "description": "LVN / LPN Joseph Villegas, NOC",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 64.0,
+      "amount": 480.0,
+      "notes": "Negotiated Charge Adjustment: 4 (approved by Timothy Temoin 01/16/24)"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA Donisha Cooper, PM",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 36.0,
+      "amount": 270.0,
+      "notes": "Negotiated Charge Adjustment: 3 (approved by Timothy Temoin 01/17/24)"
+    },
+    {
+      "date": "01/18/2024",
+      "description": "CNA James Jean, PM, (Late Cancel)",
+      "quantity": 2,
+      "unit": null,
+      "rate": 38.0,
+      "amount": 76.0,
+      "notes": "Cancelation charge for 2 hours. Timothy Temoin canceled this shift on Thu Jan 18 2024 12:04"
+    },
+    {
+      "date": "01/19/2024",
+      "description": "CNA Deanna Bush, PM",
+      "quantity": 7.47,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 246.51,
+      "notes": null
+    },
+    {
+      "date": "01/19/2024",
+      "description": "CNA Shirley Soliman, PM",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 33.0,
+      "amount": 247.5,
+      "notes": null
+    },
+    {
+      "date": "01/19/2024",
+      "description": "CNA Donisha Cooper, PM",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 36.0,
+      "amount": 270.0,
+      "notes": "Negotiated Charge Adjustment: 3 (approved by Timothy Temoin 01/17/24)"
+    },
+    {
+      "date": "01/20/2024",
+      "description": "LVN / LPN Gail Turner, PM",
+      "quantity": 7.5,
+      "unit": null,
+      "rate": 62.0,
+      "amount": 465.0,
+      "notes": "Rush Fee: 5; Time Differential: 7 (Saturday, PM)"
+    },
+    {
+      "date": "01/20/2024",
+      "description": "CNA Donisha Cooper, PM, (Sent Home Charge)",
+      "quantity": 4,
+      "unit": null,
+      "rate": 38.47,
+      "amount": 153.88,
+      "notes": "Cancelation charge for 4 hours. Timothy Temoin approved this sent-home charge via the app on Sat Jan 20 2024 15:19"
+    }
+  ],
+  "totals": {
+    "subtotal": 2807.89,
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": 2807.89
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": "322271627",
+      "account_number": "691307901",
+      "account_name": "TWOMAGNETS, INC."
+    },
+    "wire": {
+      "routing_number": "021000021",
+      "swift_code": "CHASUS33",
+      "account_number": "691307901",
+      "account_name": "TWOMAGNETS, INC.",
+      "bank_address": "JPMorgan Chase New York, NY 10017"
+    },
+    "credit_card": {
+      "instructions": "In your Invoiced.com portal link > my account > pay now > select the invoices you will pay > click next> note payment amount > select credit card as the payment method > enter card information and click pay.\nWe will give you a receipt immediately following a successful payment."
+    },
+    "postal": {
+      "regular": "TwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125",
+      "courier": "TwoMagnets Inc.\nJPMorgan Chase Attn: TwoMagnets Inc. & 103125\n2710 Media Center Dr. Building # 6, Suite # 120 Los Angeles, CA. 90065"
+    }
+  },
+  "terms_and_conditions": "For Delivery via Regular US Postal Service:\nTwoMagnets Inc.\nP.O. Box 103125 Pasadena, CA 91189-3125\n\nFor Delivery via Overnight Courier Service:\nTwoMagnets Inc.\nJPMorgan Chase Attn: TwoMagnets Inc. & 103125\n2710 Media Center Dr. Building # 6, Suite # 120 Los Angeles, CA. 90065\n\nFor ACH delivery:\nBank Routing Number: 322271627\nAccount Number: 691307901\nAccount Name: TWOMAGNETS, INC.\n\nFor Wire Transfers:\nBank Routing Number: 021000021\nSWIFT Code: CHASUS33\nGeneral Bank Reference Address: JPMorgan Chase New York, NY 10017\nAccount Number: 691307901\nAccount Name: TWOMAGNETS, INC.\n\nFor these payments, please remember to include your remittance guidance (such as which invoices you want this\npayment applied to) in your transfer request.\n\nFor Credit Card Payments:\nIn your Invoiced.com portal link > my account > pay now > select the invoices you will pay > click next> note payment\namount > select credit card as the payment method > enter card information and click pay.\n\nWe will give you a receipt immediately following a successful payment.\n\nIf you see any issues with the items contained in this invoice, please raise a dispute within the dispute terms contained\nin your contract.",
+  "dispute_instructions": "If you see any issues with the items contained in this invoice, please raise a dispute within the dispute terms contained in your contract.",
+  "miscellaneous_fields": {
+    "timesheet_url": "https://api.clipboard.health/api/timesheet/65aeddd0d5b3a98443a398a3?noScroll=true"
+  },
+  "audit": {
+    "section_presence": {
+      "status": "complete",
+      "missing_sections": []
+    },
+    "vendor_customer_completeness": {
+      "status": "partial",
+      "missing_fields": [
+        "vendor.email",
+        "vendor.website",
+        "vendor.contact_name",
+        "customer.contact_name",
+        "customer.facility_id"
+      ]
+    },
+    "line_math": [
+      {
+        "row_index": 0,
+        "expected_amount": 74.0,
+        "reported_amount": 74.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 1,
+        "expected_amount": 262.5,
+        "reported_amount": 262.5,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 2,
+        "expected_amount": 262.5,
+        "reported_amount": 262.5,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 3,
+        "expected_amount": 480.0,
+        "reported_amount": 480.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 4,
+        "expected_amount": 270.0,
+        "reported_amount": 270.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 5,
+        "expected_amount": 76.0,
+        "reported_amount": 76.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 6,
+        "expected_amount": 246.51,
+        "reported_amount": 246.51,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 7,
+        "expected_amount": 247.5,
+        "reported_amount": 247.5,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 8,
+        "expected_amount": 270.0,
+        "reported_amount": 270.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 9,
+        "expected_amount": 465.0,
+        "reported_amount": 465.0,
+        "difference": 0.0,
+        "status": "correct"
+      },
+      {
+        "row_index": 10,
+        "expected_amount": 153.88,
+        "reported_amount": 153.88,
+        "difference": 0.0,
+        "status": "correct"
+      }
+    ],
+    "line_sum_to_subtotal": {
+      "line_sum": 2807.89,
+      "subtotal": 2807.89,
+      "difference": 0.0,
+      "status": "match"
+    },
+    "subtotal_formula": {
+      "computed_total": 2807.89,
+      "reported_total": 2807.89,
+      "difference": 0.0,
+      "status": "match"
+    },
+    "total_to_balance_due": {
+      "total": 2807.89,
+      "balance_due": 2807.89,
+      "difference": 0.0,
+      "status": "match"
+    },
+    "zero_negative_guard": {
+      "status": "pass",
+      "problem_rows": []
+    },
+    "duplicate_line_item": {
+      "status": "pass",
+      "duplicates_found": []
+    },
+    "missing_descriptions": {
+      "status": "pass",
+      "rows_missing": []
+    },
+    "date_sanity": {
+      "status": "pass",
+      "issues_found": []
+    },
+    "currency_coherence": {
+      "status": "pass",
+      "mixed_currencies_detected": []
+    },
+    "ocr_confidence_floor": {
+      "average_confidence": null,
+      "status": "not assessed"
+    },
+    "blank_page_detector": {
+      "status": "not assessed",
+      "blank_pages": []
+    },
+    "overall_status": "complete",
+    "requires_human_review": false
+  }
+}

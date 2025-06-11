@@ -1,0 +1,210 @@
+{
+  "statement_metadata": {
+    "statement_provider": "Fidelity",
+    "statement_date": "2024-11-30",
+    "statement_period_start": "2024-11-01",
+    "statement_period_end": "2024-11-30",
+    "statement_type": "INVESTMENT REPORT",
+    "source_file_name": "Fidelity StatementCrum.pdf"
+  },
+  "customer": {
+    "name": "WILLIAM COLE CRUM",
+    "address": "793 N UNIVERSITY AVE APT 2 PROVO UT 84601-1627",
+    "account_number": "238-879461",
+    "client_id": null,
+    "advisor_name": null
+  },
+  "accounts": [
+    {
+      "account_name": "WILLIAM COLE CRUM - ROTH IRA",
+      "account_number": "238-879461",
+      "account_type": "ROTH INDIVIDUAL RETIREMENT ACCOUNT",
+      "holdings": [
+        {
+          "description": "FIDELITY GOVERNMENT MONEY MARKET (SPAXX)",
+          "cusip": null,
+          "ticker": "SPAXX",
+          "asset_type": "Core Account",
+          "quantity": 0.23,
+          "price": 1,
+          "market_value": 0.23
+        },
+        {
+          "description": "JPMORGAN INVESTOR GROWTH FUND CLASS A",
+          "cusip": "4812C2809",
+          "ticker": "ONGAX",
+          "asset_type": "Mutual Fund",
+          "quantity": 58.353,
+          "price": 26.93,
+          "market_value": 1571.44
+        },
+        {
+          "description": "FIDELITY SML MID MLTFCT",
+          "cusip": null,
+          "ticker": "FSMD",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 0.122,
+          "price": 44.68,
+          "market_value": 5.45
+        },
+        {
+          "description": "FIDELITY INTL MULTIFACTOR",
+          "cusip": null,
+          "ticker": "FDEV",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 0.484,
+          "price": 28.52,
+          "market_value": 13.8
+        },
+        {
+          "description": "FIDELITY EMERG MKTS MLTF T",
+          "cusip": null,
+          "ticker": "FDEM",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 0.205,
+          "price": 25.6437,
+          "market_value": 5.25
+        },
+        {
+          "description": "FIDELITY LOW DURATION BOND FACTOR ETF",
+          "cusip": null,
+          "ticker": "FLDR",
+          "asset_type": "Exchange Traded Products",
+          "quantity": 0.233,
+          "price": 50.065,
+          "market_value": 11.66
+        },
+        {
+          "description": "MICROSOFT CORP",
+          "cusip": "594918104",
+          "ticker": "MSFT",
+          "asset_type": "Stock",
+          "quantity": 4.305,
+          "price": 423.46,
+          "market_value": 1822.99
+        }
+      ],
+      "account_total_value": 3430.82
+    }
+  ],
+  "statement_total_value": 3430.82,
+  "audit": {
+    "section_presence": {
+      "status": "complete",
+      "missing_sections": []
+    },
+    "account_header_parsing": {
+      "status": "complete",
+      "accounts_missing_fields": []
+    },
+    "holdings_to_account": [
+      {
+        "account_number": "238-879461",
+        "holdings_sum": 3430.82,
+        "account_total_value": 3430.82,
+        "difference": 0,
+        "status": "match"
+      }
+    ],
+    "accounts_to_statement": {
+      "total_of_account_values": 3430.82,
+      "statement_total_value": 3430.82,
+      "difference": 0,
+      "status": "match"
+    },
+    "quantity_value_logic": [
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "SPAXX",
+        "computed_value": 0.23,
+        "reported_market_value": 0.23,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "ONGAX",
+        "computed_value": 1570.91,
+        "reported_market_value": 1571.44,
+        "difference_pct": 0.034,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "FSMD",
+        "computed_value": 5.45,
+        "reported_market_value": 5.45,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "FDEV",
+        "computed_value": 13.8,
+        "reported_market_value": 13.8,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "FDEM",
+        "computed_value": 5.25,
+        "reported_market_value": 5.25,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "FLDR",
+        "computed_value": 11.66,
+        "reported_market_value": 11.66,
+        "difference_pct": 0,
+        "status": "match"
+      },
+      {
+        "account_number": "238-879461",
+        "cusip_or_ticker": "MSFT",
+        "computed_value": 1822.99,
+        "reported_market_value": 1822.99,
+        "difference_pct": 0,
+        "status": "match"
+      }
+    ],
+    "zero_negative_guard": {
+      "status": "pass",
+      "problem_rows": []
+    },
+    "rounding_coherence": {
+      "status": "pass",
+      "accounts_with_issues": []
+    },
+    "duplicate_security_id": {
+      "status": "pass",
+      "duplicates_found": []
+    },
+    "missing_identifier": {
+      "status": "pass",
+      "holdings_without_id": []
+    },
+    "missing_value_fields": {
+      "status": "pass",
+      "rows_missing_values": []
+    },
+    "currency_symbol_coherence": {
+      "status": "pass",
+      "mixed_currencies_detected": []
+    },
+    "date_range_sanity": {
+      "status": "pass",
+      "future_dates_found": []
+    },
+    "header_footer_total_match": {
+      "footer_total_value": 3430.82,
+      "statement_total_value": 3430.82,
+      "difference": 0,
+      "status": "match"
+    },
+    "overall_status": "pass",
+    "requires_human_review": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "general_document": {
+    "document_metadata": {
+      "document_type": "string - Type of document (invoice, brokerage, dmv, legal, medical, etc.)",
+      "document_date": "string - Date on the document if available",
+      "document_title": "string - Title or header of the document",
+      "sender_organization": "string - Organization that sent/created the document",
+      "recipient_name": "string - Who the document is addressed to"
+    },
+    "key_information": {
+      "dates": "array - All important dates found in the document",
+      "amounts": "array - All monetary amounts found",
+      "reference_numbers": "array - Any reference, account, or ID numbers",
+      "names": "array - People or organization names mentioned",
+      "addresses": "array - Physical or email addresses found"
+    },
+    "action_items": {
+      "required_actions": "array - Actions that need to be taken",
+      "deadlines": "array - Any deadlines mentioned",
+      "urgency_level": "string - low, medium, high, urgent"
+    },
+    "document_summary": {
+      "main_purpose": "string - Brief description of document's purpose",
+      "key_points": "array - Bullet points of most important information",
+      "category": "string - Document category for filing/organization"
+    },
+    "technical_details": {
+      "total_pages": "number - Number of pages in document",
+      "language": "string - Primary language of document",
+      "quality_score": "number - OCR/extraction quality score 0-100"
+    }
+  }
+}

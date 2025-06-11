@@ -1,0 +1,91 @@
+name: "Invoice Processing"
+description: "Automated processing of invoices with QuickBooks integration"
+version: "1.0"
+
+triggers:
+  - event: "document.processed"
+    conditions:
+      - "content_category = 'invoice'"
+      - "content LIKE '%invoice%' OR content LIKE '%bill%' OR content LIKE '%payment%'"
+  
+  - event: "communication.created"
+    conditions:
+      - "sender_identifier LIKE '%invoice%' OR sender_identifier LIKE '%billing%'"
+
+steps:
+  - name: "ai_summary"
+    description: "Generate AI summary of the invoice"
+    tool: "ai_summarize"
+    params:
+      content: "${trigger_data.message_content_text}"
+      max_length: 250
+      model: "claude-3-haiku"
+    
+  - name: "extract_invoice_entities"
+    description: "Extract invoice-specific entities"
+    tool: "ai_extract_entities"
+    params:
+      content: "${trigger_data.message_content_text}"
+      types: ["dates", "amounts", "invoice_numbers", "vendors", "line_items"]
+    
+  - name: "classify_urgency"
+    description: "Determine invoice urgency and payment priority"
+    tool: "ai_classify_urgency"
+    params:
+      content: "${trigger_data.message_content_text}"
+      keywords: ["overdue", "past due", "final notice", "urgent", "immediate"]
+    
+  - name: "match_vendor"
+    description: "Match vendor in QuickBooks"
+    tool: "quickbooks_match_vendor"
+    params:
+      vendor_name: "${execution_results.extract_invoice_entities.entities.vendors[0]}"
+      invoice_data: "${trigger_data}"
+    
+  - name: "create_or_update_vendor"
+    description: "Create vendor if not found in QuickBooks"
+    tool: "quickbooks_create_vendor"
+    conditions:
+      - "match_vendor.vendor_found = false"
+    params:
+      vendor_data:
+        name: "${execution_results.extract_invoice_entities.entities.vendors[0]}"
+        email: "${trigger_data.sender_identifier}"
+    
+  - name: "auto_code_invoice"
+    description: "Automatically code invoice line items"
+    tool: "quickbooks_auto_code"
+    params:
+      invoice_data: "${trigger_data}"
+      vendor_id: "${execution_results.match_vendor.vendor_id}"
+    
+  - name: "create_invoice_task"
+    description: "Create task for invoice review and approval"
+    tool: "crm_create_task"
+    params:
+      title: "Review Invoice - ${execution_results.extract_invoice_entities.entities.invoice_numbers[0]}"
+      description: "${execution_results.ai_summary.summary}"
+      company_id: "${execution_results.match_vendor.company_id}"
+      due_date: "${execution_results.extract_invoice_entities.entities.dates[0]}"
+      priority: "${execution_results.classify_urgency.urgency_level}"
+    
+  - name: "update_communication"
+    description: "Update communication with invoice processing results"
+    tool: "crm_update_communication"
+    params:
+      communication_id: "${trigger_data.id}"
+      updates:
+        ai_generated_summary: "${execution_results.ai_summary.summary}"
+        ai_extracted_entities: "${execution_results.extract_invoice_entities.entities}"
+        urgency_level: "${execution_results.classify_urgency.urgency_level}"
+        content_category: "invoice"
+        requires_follow_up: 1
+        follow_up_due_date: "${execution_results.extract_invoice_entities.entities.dates[0]}"
+
+metadata:
+  author: "Andrew Lark"
+  created_date: "2025-06-09"
+  category: "financial_processing"
+  tags: ["invoice", "quickbooks", "vendor_management", "accounting"]
+  estimated_runtime: "45 seconds"
+  dependencies: ["crm-db", "quickbooks", "ai_processing"]

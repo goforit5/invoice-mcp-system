@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/andrew/Projects/claudecode1/src/fetch/server.js"]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "/Users/andrew/.nvm/versions/node/v18.20.7/bin/npx",
+      "args": ["@playwright/mcp@0.0.22", "--config", "/Users/andrew/Projects/claudecode1/src/playwright/config/playwright-mcp-config.json"]
+    },
+    "vision": {
+      "type": "stdio",
+      "command": "/Users/andrew/Projects/claudecode1/vision-mcp-env/bin/python3",
+      "args": ["/Users/andrew/Projects/claudecode1/src/vision/server.py"]
+    },
+    "crm-db": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["/Users/andrew/Projects/claudecode1/src/crm-db/server.py"],
+      "env": {
+        "CRM_DB_PATH": "/Users/andrew/Projects/claudecode1/src/crm-db/crm.db"
+      }
+    },
+    "github": {
+      "type": "stdio",
+      "command": "/Users/andrew/Projects/claudecode1/vision-mcp-env/bin/python3",
+      "args": ["/Users/andrew/Projects/claudecode1/src/github/server.py"]
+    }
+  }
+}
