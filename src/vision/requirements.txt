@@ -1,0 +1,6 @@
+fastmcp
+openai
+pdf2image
+python-dotenv
+Pillow
+requests

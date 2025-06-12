@@ -1,7 +1,7 @@
 {
-  "name": "brokerage-extraction-ui",
+  "name": "universal-document-ai-ui",
   "version": "1.0.0",
-  "description": "Frontend for brokerage document extraction",
+  "description": "Universal Document AI Processing Frontend with CRM Dashboard",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "axios": "^1.6.0"
+    "react-dropzone": "^14.3.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

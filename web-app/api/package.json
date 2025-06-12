@@ -1,7 +1,7 @@
 {
-  "name": "brokerage-extraction-api",
+  "name": "universal-document-ai-api",
   "version": "1.0.0",
-  "description": "API server for brokerage document extraction",
+  "description": "Universal Document AI Processing API with CRM Integration",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",
     "cors": "^2.8.5",
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "sqlite3": "^5.1.6"
   }
 }

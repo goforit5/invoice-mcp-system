@@ -1,6 +1,150 @@
 {
   "invoice_metadata": {
+    "invoice_number": "59084",
+    "invoice_type": null,
     "source_file_name": "1240_001.pdf",
-    "extraction_error": "Failed to parse AI response as valid JSON"
+    "issue_date": null,
+    "due_date": "12/27/2023",
+    "period_start_date": null,
+    "period_end_date": "10/28/2023",
+    "balance_due": "3280.00",
+    "purchase_order_number": null
+  },
+  "vendor": {
+    "name": "Ventura MedStaff, LLC",
+    "address": "2909 N 118th St., Suite 200",
+    "city": "Omaha",
+    "state": "NE",
+    "zip": "68164",
+    "phone": null,
+    "email": "accounting@venturamedstaff.com",
+    "website": null,
+    "contact_name": null,
+    "remittance_address": "PO Box 8637, Omaha, NE 68108"
+  },
+  "customer": {
+    "name": "Napa Post Acute",
+    "address": "705 Trancas St",
+    "city": "Napa",
+    "state": "CA",
+    "zip": "94558",
+    "account_number": null,
+    "facility_id": null,
+    "contact_name": "Jessica Wilson"
+  },
+  "line_items": [
+    {
+      "date": null,
+      "description": "Reg Hours",
+      "quantity": "40",
+      "unit": null,
+      "rate": "82.00",
+      "amount": "3280.00",
+      "notes": null
+    }
+  ],
+  "totals": {
+    "subtotal": "3280.00",
+    "tax": null,
+    "shipping": null,
+    "discount": null,
+    "total": "3280.00"
+  },
+  "payment_instructions": {
+    "ach": {
+      "routing_number": "104000854",
+      "account_number": "320312564",
+      "account_name": "Ventura MedStaff, LLC"
+    },
+    "wire": {
+      "routing_number": "104000854",
+      "swift_code": null,
+      "account_number": "320312564",
+      "account_name": "Ventura MedStaff, LLC",
+      "bank_address": "American National Bank, Omaha, NE"
+    },
+    "credit_card": {
+      "instructions": null
+    },
+    "postal": {
+      "regular": "PO Box 8637, Omaha, NE 68108",
+      "courier": null
+    }
+  },
+  "terms_and_conditions": null,
+  "dispute_instructions": null,
+  "miscellaneous_fields": {},
+  "audit": {
+    "section_presence": {
+      "status": "complete",
+      "missing_sections": []
+    },
+    "vendor_customer_completeness": {
+      "status": "partial",
+      "missing_fields": [
+        "vendor.phone",
+        "vendor.website",
+        "vendor.contact_name",
+        "customer.account_number",
+        "customer.facility_id"
+      ]
+    },
+    "line_math": [
+      {
+        "row_index": 0,
+        "expected_amount": 3280,
+        "reported_amount": 3280,
+        "difference": 0,
+        "status": "correct"
+      }
+    ],
+    "line_sum_to_subtotal": {
+      "line_sum": 3280,
+      "subtotal": 3280,
+      "difference": 0,
+      "status": "match"
+    },
+    "subtotal_formula": {
+      "computed_total": 3280,
+      "reported_total": 3280,
+      "difference": 0,
+      "status": "match"
+    },
+    "total_to_balance_due": {
+      "total": 3280,
+      "balance_due": 3280,
+      "difference": 0,
+      "status": "match"
+    },
+    "zero_negative_guard": {
+      "status": "pass",
+      "problem_rows": []
+    },
+    "duplicate_line_item": {
+      "status": "pass",
+      "duplicates_found": []
+    },
+    "missing_descriptions": {
+      "status": "pass",
+      "rows_missing": []
+    },
+    "date_sanity": {
+      "status": "pass",
+      "issues_found": []
+    },
+    "currency_coherence": {
+      "status": "pass",
+      "mixed_currencies_detected": []
+    },
+    "ocr_confidence_floor": {
+      "average_confidence": null,
+      "status": null
+    },
+    "blank_page_detector": {
+      "status": "pass",
+      "blank_pages": []
+    },
+    "overall_status": "complete",
+    "requires_human_review": false
   }
 }

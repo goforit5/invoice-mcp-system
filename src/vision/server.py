@@ -1,4 +1,4 @@
-#!/Users/andrew/Projects/claudecode1/vision-mcp-env/bin/python3
+#!/Users/andrew/Projects/claudecode1/src/vision/vision-env/bin/python3
 """
 MCP server for vision functionality - PDF text extraction using OpenAI Vision API
 """
@@ -7,15 +7,41 @@ import asyncio
 import logging
 import requests
 import json
-from mcp.server.fastmcp import FastMCP
-from index import extract_pdf_text, extract_structured_invoice_data, save_invoice_json, extract_structured_brokerage_data, save_brokerage_json
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+from typing import Optional
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
+from mcp.server.fastmcp import FastMCP, Context
+
+# Load environment variables from local .env file
+env_path = Path(__file__).parent / '.env'
+load_dotenv(dotenv_path=env_path)
+logger = logging.getLogger(__name__)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger.info(f"Loading environment from: {env_path}")
+logger.info(f"OpenAI API Key loaded: {'Yes' if os.getenv('OPENAI_API_KEY') else 'No'}")
 
-# Create FastMCP server
-mcp = FastMCP("Vision MCP")
+from index import extract_pdf_text, extract_structured_invoice_data, save_invoice_json, extract_structured_brokerage_data, save_brokerage_json
+
+# Vision server context for managing resources
+class VisionContext:
+    """Context for Vision MCP server resources"""
+    pass
+
+@asynccontextmanager
+async def vision_lifespan(server: FastMCP) -> AsyncIterator[VisionContext]:
+    """Lifespan context manager for Vision MCP server"""
+    logger.info("Vision MCP server starting up...")
+    context = VisionContext()
+    yield context
+    logger.info("Vision MCP server shutting down...")
+
+# Create FastMCP server with lifespan
+mcp = FastMCP("Vision MCP", lifespan=vision_lifespan)
 
 # Workflow automation configuration
 WORKFLOW_TRIGGER_ENABLED = True
@@ -671,4 +697,5 @@ Output files are saved to:
 
 if __name__ == "__main__":
     logger.info("Starting Vision MCP server...")
+    # Run the server
     mcp.run()

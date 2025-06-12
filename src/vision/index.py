@@ -9,11 +9,16 @@ import json
 from typing import Dict, List
 from pathlib import Path
 import logging
+from dotenv import load_dotenv
 
 from pdf2image import convert_from_path
 from openai import OpenAI
 from PIL import Image
 import io
+
+# Load environment variables from local .env file
+env_path = Path(__file__).parent / '.env'
+load_dotenv(dotenv_path=env_path)
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -278,18 +283,79 @@ def extract_structured_invoice_data(extracted_text: str, filename: str) -> Dict:
         # Load the template
         template = load_invoice_template()
         
-        # Create prompt for structured extraction
-        prompt = f"""
-Parse the following invoice text and extract the information into this JSON structure. 
-Only fill in fields where you can find the information in the text. Leave fields as null if the information is not present.
-Return ONLY the JSON, no additional text or formatting.
+        # Check if the text is too long and needs to be summarized
+        text_length = len(extracted_text)
+        if text_length > 15000:  # For very long documents like utility bills
+            logger.info(f"Text length {text_length} is very long, using simplified extraction approach")
+            
+            # Extract key information from first 8000 characters to stay within token limits
+            summary_text = extracted_text[:8000] + "\n\n[Document continues with additional pages of details, terms, and conditions]"
+            
+            prompt = f"""
+Parse this utility bill/invoice text and extract ONLY the key billing information into JSON format.
 
-Template structure:
+CRITICAL REQUIREMENTS:
+1. Return ONLY valid JSON - no markdown, no code blocks, no extra text
+2. Use null for missing values, not empty strings  
+3. Focus on essential billing data: amounts, dates, customer info, vendor info
+4. The response must be parseable by json.loads()
+
+Extract only these key fields into JSON:
+{{
+  "invoice_metadata": {{
+    "invoice_number": "account or invoice number",
+    "invoice_type": "type of bill",
+    "source_file_name": "{filename}",
+    "issue_date": "YYYY-MM-DD or null",
+    "due_date": "YYYY-MM-DD or null", 
+    "period_start_date": "YYYY-MM-DD or null",
+    "period_end_date": "YYYY-MM-DD or null",
+    "balance_due": amount_as_number_or_null
+  }},
+  "vendor": {{
+    "name": "company name",
+    "address": "address or null",
+    "city": "city or null", 
+    "state": "state or null",
+    "zip": "zip or null",
+    "phone": "phone or null",
+    "email": "email or null"
+  }},
+  "customer": {{
+    "name": "customer name",
+    "address": "customer address or null",
+    "city": "city or null",
+    "state": "state or null", 
+    "zip": "zip or null",
+    "account_number": "account number or null"
+  }},
+  "totals": {{
+    "total": amount_as_number_or_null
+  }}
+}}
+
+Bill text to parse:
+{summary_text}
+
+Return ONLY the JSON structure above."""
+        else:
+            prompt = f"""
+Parse the following invoice text and extract information into the exact JSON structure provided.
+
+CRITICAL REQUIREMENTS:
+1. Return ONLY valid JSON - no markdown, no code blocks, no extra text
+2. Use null for missing values, not empty strings
+3. Ensure all quotes are properly escaped
+4. Do not include any text before or after the JSON
+5. The response must be parseable by json.loads()
+
+JSON Template to fill:
 {json.dumps(template, indent=2)}
 
 Invoice text to parse:
 {extracted_text}
-"""
+
+Remember: Return ONLY the filled JSON structure with no additional formatting or text."""
         
         logger.info("Extracting structured invoice data...")
         
@@ -297,17 +363,45 @@ Invoice text to parse:
             model="gpt-4.1-mini",
             messages=[
                 {
-                    "role": "user",
+                    "role": "system",
+                    "content": "You are a JSON extraction assistant. You must ONLY return valid, parseable JSON with no additional text, markdown formatting, or code blocks. Your entire response must be valid JSON that can be parsed by json.loads()."
+                },
+                {
+                    "role": "user", 
                     "content": prompt
                 }
             ],
-            max_tokens=10000,
+            max_tokens=16000,
             temperature=0
         )
         
         # Parse the response as JSON with enhanced error handling
         response_content = response.choices[0].message.content
         logger.info(f"Raw AI response length: {len(response_content)} characters")
+        logger.info(f"Finish reason: {response.choices[0].finish_reason}")
+        
+        # Check if response was truncated
+        if response.choices[0].finish_reason == "length":
+            logger.warning("Response was truncated due to max_tokens limit!")
+        
+        # DEBUG: Save raw response for inspection
+        try:
+            debug_file = Path(__file__).parent.parent.parent / "output" / f"debug_ai_response_{filename}.txt"
+            debug_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(debug_file, 'w', encoding='utf-8') as f:
+                f.write(f"=== AI Response for {filename} ===\n")
+                f.write(f"Length: {len(response_content)} characters\n")
+                f.write(f"Finish reason: {response.choices[0].finish_reason}\n")
+                f.write(f"=== Response Content ===\n")
+                f.write(response_content)
+                f.write(f"\n=== End Response ===\n")
+            logger.info(f"DEBUG: Saved raw AI response to {debug_file}")
+        except Exception as debug_error:
+            logger.error(f"Failed to save debug file: {debug_error}")
+            
+        # Also log first 500 chars of response
+        logger.info(f"Response preview: {response_content[:500]}...")
+        logger.info(f"Response ends with: {response_content[-100:] if len(response_content) > 100 else response_content}")
         
         try:
             structured_data = json.loads(response_content)
@@ -540,6 +634,10 @@ Brokerage statement text to parse:
         response = client.chat.completions.create(
             model="gpt-4.1-mini",
             messages=[
+                {
+                    "role": "system",
+                    "content": "You are a JSON extraction assistant. You must ONLY return valid, parseable JSON with no additional text, markdown formatting, or code blocks. Your entire response must be valid JSON that can be parsed by json.loads()."
+                },
                 {
                     "role": "user",
                     "content": prompt

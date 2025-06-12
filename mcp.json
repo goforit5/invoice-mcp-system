@@ -11,8 +11,8 @@
       "args": ["@playwright/mcp@0.0.22", "--config", "/Users/andrew/Projects/claudecode1/src/playwright/config/playwright-mcp-config.json"]
     },
     "vision": {
-      "type": "stdio",
-      "command": "/Users/andrew/Projects/claudecode1/vision-mcp-env/bin/python3",
+      "type": "stdio", 
+      "command": "/Users/andrew/Projects/claudecode1/src/vision/vision-env/bin/python3",
       "args": ["/Users/andrew/Projects/claudecode1/src/vision/server.py"]
     },
     "crm-db": {

@@ -32,6 +32,7 @@ MANIFEST
 
 # Virtual Environments
 vision-mcp-env/
+src/vision/vision-env/
 venv/
 env/
 ENV/
@@ -102,6 +103,29 @@ htmlcov/
 # Cache
 .cache/
 .parcel-cache/
+
+# Test Documents & Sensitive Output Files
+test-documents/*.pdf
+test-documents/*.png
+test-documents/*.jpg
+test-documents/*.jpeg
+test-documents/*.doc*
+test-documents/*.xls*
+output/**/*.json
+output/**/*.txt
+output/**/*.csv
+docs/**/*.md
+docs/**/*.txt
+docs/**/*.pdf
+
+# Personal/Private Documents (keep private)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+invoices/
+statements/
+receipts/
 
 # Misc
 *.tgz
