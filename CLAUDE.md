@@ -206,3 +206,25 @@ curl http://localhost:3001/api/crm/dashboard # Real CRM data
 - **MCP Status**: http://localhost:3001/api/mcp-status
 
 **Remember**: This is a production AI tool ecosystem. Every component processes real data, connects to live systems, and provides complete functionality with zero placeholders or mock responses.
+
+## Quick Commands & Custom Rules
+
+### @document Processing Rule
+**IMPORTANT RULE**: When the user types "@document" followed by a file path, I MUST automatically execute the complete document processing workflow without any prompts or pauses. This includes:
+
+1. Extract data using `mcp__vision__extractDocumentData`
+2. Show classification and extracted information
+3. Search/create CRM company records
+4. Create communication record
+5. Generate appropriate tasks
+6. Provide complete CRM analysis
+7. Show actionable next steps
+
+**Usage**: `@document <file-path>`
+
+**Example**: `@document test-documents/invoice.pdf`
+
+### Alternative Trigger
+If "@document" doesn't work, use: `Process document: <file-path>`
+
+**Note**: This is a single continuous workflow - execute ALL steps automatically.
